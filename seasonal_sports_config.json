@@ -1,6 +1,14 @@
+[
 {
   "active": true,
-  "tournament_name": "FIFA and IPL Highlights",
+  "tournament_name": "FIFA Highlights",
   "tab_title": "World Cup",
   "playlist_id": "PLCGIzmTE4d0hhfpwtaWR-mgtRZmsy5e4t"
  }
+{
+  "active": true,
+  "tournament_name": "ICC Women’s T20 World Cup 2026",
+  "tab_title": "ICC Women’s T20 World Cup 2026",
+  "playlist_id": "PL2qR5z9A4oNnYkXzjvZpXvZCkQy9vZk7U"
+ }
+]
