@@ -10,5 +10,185 @@
   "tournament_name": "ICC Women’s T20 World Cup 2026",
   "tab_title": "ICC Women’s T20 World Cup 2026",
   "playlist_id": "PLtWkiFWAD1cwbb2k5YQMWQYDqa25f-zEP"
- }
+ },
+  {
+    "active": true,
+    "tournament_name": "NDTV",
+    "tab_title": "India",
+    "playlist_id": "UUZFMm1mMw0F81Z37aaEzTUA"
+  },
+  {
+    "active": true,
+    "tournament_name": "India Today",
+    "tab_title": "India",
+    "playlist_id": "UUYPvAwZP8pZhSMW8qs7cVCw"
+  },
+  {
+    "active": true,
+    "tournament_name": "CNN-News18",
+    "tab_title": "India",
+    "playlist_id": "UUef1-8eOpJgud7szVPlZQAQ"
+  },
+  {
+    "active": true,
+    "tournament_name": "Times Now",
+    "tab_title": "India",
+    "playlist_id": "UUMkHcPHfwchiXf_3sgQOZPg"
+  },
+  {
+    "active": true,
+    "tournament_name": "Republic World",
+    "tab_title": "India",
+    "playlist_id": "UUU8Eb7cf3z3bpRGnT8PPqOQ"
+  },
+  {
+    "active": true,
+    "tournament_name": "WION",
+    "tab_title": "India",
+    "playlist_id": "UU_gUM8rL-Lrg6O3adPW9K1g"
+  },
+  {
+    "active": true,
+    "tournament_name": "The Print",
+    "tab_title": "India",
+    "playlist_id": "UUOjgc1p2hJ4GZi6pQQoXWYQ"
+  },
+  {
+    "active": true,
+    "tournament_name": "The Wire",
+    "tab_title": "India",
+    "playlist_id": "UUhWtJey46brNr7qHQpN6KLQ"
+  },
+  {
+    "active": true,
+    "tournament_name": "Hindustan Times",
+    "tab_title": "India",
+    "playlist_id": "UU0yXUUIaPVAqZLgRjvtMftw"
+  },
+  {
+    "active": true,
+    "tournament_name": "Firstpost",
+    "tab_title": "India",
+    "playlist_id": "UUN7B-QD0Qgn2boVH5Q0pOWg"
+  },
+  {
+    "active": true,
+    "tournament_name": "CNN",
+    "tab_title": "US",
+    "playlist_id": "UUupvZG-5ko_eiXAupbDfxWw"
+  },
+  {
+    "active": true,
+    "tournament_name": "Fox News",
+    "tab_title": "US",
+    "playlist_id": "UUXIJgqnII2ZOINSWNOGFThA"
+  },
+  {
+    "active": true,
+    "tournament_name": "MSNBC",
+    "tab_title": "US",
+    "playlist_id": "UUVcbLxXGal-a0_PzpywM7Ug"
+  },
+  {
+    "active": true,
+    "tournament_name": "ABC News",
+    "tab_title": "US",
+    "playlist_id": "UUBi2mrWuNuyYy4gbM6fU18Q"
+  },
+  {
+    "active": true,
+    "tournament_name": "NBC News",
+    "tab_title": "US",
+    "playlist_id": "UUeY0bbntWzzVIaj2z3QigXg"
+  },
+  {
+    "active": true,
+    "tournament_name": "CBS News",
+    "tab_title": "US",
+    "playlist_id": "UU8p1vwvWtl6T73JiExfWs1g"
+  },
+  {
+    "active": true,
+    "tournament_name": "Bloomberg Television",
+    "tab_title": "US",
+    "playlist_id": "UUIALMKvObZNtJ6AmdCLP7Lg"
+  },
+  {
+    "active": true,
+    "tournament_name": "CNBC",
+    "tab_title": "US",
+    "playlist_id": "UUvJJ_dzjViJCoLf5uKUTwoA"
+  },
+  {
+    "active": true,
+    "tournament_name": "PBS NewsHour",
+    "tab_title": "US",
+    "playlist_id": "UU6ZFN9Tx6xh-skXCuRHCDpQ"
+  },
+  {
+    "active": true,
+    "tournament_name": "Reuters",
+    "tab_title": "US",
+    "playlist_id": "UUhqUTb7kYRX8-EiaN3XFrSQ"
+  },
+  {
+    "active": true,
+    "tournament_name": "BBC News",
+    "tab_title": "UK",
+    "playlist_id": "UU16niRr50-MSBwiO3YDb3RA"
+  },
+  {
+    "active": true,
+    "tournament_name": "Sky News",
+    "tab_title": "UK",
+    "playlist_id": "UUoMdktPbSTixAyNGwb-UYkQ"
+  },
+  {
+    "active": true,
+    "tournament_name": "Channel 4 News",
+    "tab_title": "UK",
+    "playlist_id": "UUTrQ7HXWRRxr7OsOtodr2_w"
+  },
+  {
+    "active": true,
+    "tournament_name": "GB News",
+    "tab_title": "UK",
+    "playlist_id": "UU0vn8ISa4LKMunLbzaXLnOQ"
+  },
+  {
+    "active": true,
+    "tournament_name": "ITV News",
+    "tab_title": "UK",
+    "playlist_id": "UUXxW49bE9G8fA6rJ5r6V20A"
+  },
+  {
+    "active": true,
+    "tournament_name": "Al Jazeera English",
+    "tab_title": "Middle East",
+    "playlist_id": "UUNye-wNBqNL5ZzHSJj3l8Bg"
+  },
+  {
+    "active": true,
+    "tournament_name": "Al Arabiya English",
+    "tab_title": "Middle East",
+    "playlist_id": "UUigjynYyQYjTwZgFfG6qR8A"
+  },
+  {
+    "active": true,
+    "tournament_name": "TRT World",
+    "tab_title": "Middle East",
+    "playlist_id": "UU7fWeaHhqgM4Ry-RMpM2YYw"
+  },
+  {
+    "active": true,
+    "tournament_name": "DW News",
+    "tab_title": "Middle East",
+    "playlist_id": "UUknLrEdhRCp1aegoMqRaCZg"
+  },
+  {
+    "active": true,
+    "tournament_name": "France 24 English",
+    "tab_title": "Middle East",
+    "playlist_id": "UUQfwfsi5VrQ8yKZ-UWmAEFg"
+  }
 ]
