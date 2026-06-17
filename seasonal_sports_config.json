@@ -12,7 +12,7 @@
   "playlist_id": "PLtWkiFWAD1cwbb2k5YQMWQYDqa25f-zEP"
  },
  {
-    "active": true,
+    "active": false,
     "tournament_name": "Moneycontrol",
     "tab_title": "India Stock Market",
     "playlist_id": "UUefyVdL7GJX36N4B3V6VA7g"
@@ -24,7 +24,7 @@
     "playlist_id": "UUmRbHAgG2k2vDUvb3xsEunQ"
   },
   {
-    "active": true,
+    "active": false,
     "tournament_name": "CNBC Awaaz",
     "tab_title": "India Stock Market",
     "playlist_id": "UUO_jCL2N0dH9PTs6eWgmjyQ"
@@ -36,13 +36,13 @@
     "playlist_id": "UUkXopQ3ubd-rnXnStZqCl2w"
   },
   {
-    "active": true,
+    "active": false,
     "tournament_name": "ET NOW",
     "tab_title": "India Stock Market",
     "playlist_id": "UU6uXlKep4REvVQwN4fUeMGA"
   },
   {
-    "active": true,
+    "active": false,
     "tournament_name": "ET NOW Swadesh",
     "tab_title": "India Stock Market",
     "playlist_id": "UU3h7lYpK4Q5D5t7J1i0V7xA"
@@ -54,19 +54,19 @@
     "playlist_id": "UUaXkIU1QidjPwiAYu6GcHjg"
   },
   {
-    "active": true,
+    "active": false,
     "tournament_name": "NDTV Profit",
     "tab_title": "India Stock Market",
     "playlist_id": "UUj18kNnL7P1slKuPzMSTXVA"
   },
   {
-    "active": true,
+    "active": false,
     "tournament_name": "The Economic Times",
     "tab_title": "India Stock Market",
     "playlist_id": "UUw-JzmRurMab7lKQ4uJf2-Q"
   },
   {
-    "active": true,
+    "active": false,
     "tournament_name": "Bloomberg TV India",
     "tab_title": "India Stock Market",
     "playlist_id": "UUiXKJgW3QWjJjF7Q6vK8QYQ"
