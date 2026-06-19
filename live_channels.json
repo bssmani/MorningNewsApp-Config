@@ -5,7 +5,7 @@
     "colorHex": "#E53935"
   },
   {
-    "name": "India Today",
+    "name": "New India Today",
     "streamUrl": "https://feeds.intoday.in/hltapps/api/master.m3u8",
     "colorHex": "#1E88E5"
   },
