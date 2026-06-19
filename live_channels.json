@@ -1,27 +1,47 @@
 [
   {
-    "name": "DD News",
-    "streamUrl": "https://m-c048-j2apps.s.llnwi.net/hls/0182.DDNews.in.m3u8",
-    "colorHex": "#E53935"
-  },
-  {
-    "name": "New India Today",
+    "name": "India Today",
     "streamUrl": "https://feeds.intoday.in/hltapps/api/master.m3u8",
     "colorHex": "#1E88E5"
   },
   {
     "name": "NDTV India",
-    "streamUrl": "https://d3t34m8y8rh0vb.cloudfront.net/preview/ndtvhindi/350.m3u8",
-    "colorHex": "#43A047"
+    "streamUrl": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+    "colorHex": "#E53935"
   },
   {
-    "name": "News18 India",
-    "streamUrl": "https://news18india-lh.akamaihd.net/i/news18india_1@174951/index_4_av-b.m3u8",
-    "colorHex": "#FDD835"
+    "name": "CNBC Awaaz",
+    "streamUrl": "https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index_5_av-p.m3u8?sd=10&rebase=on",
+    "colorHex": "#1565C0"
   },
   {
-    "name": "Bloomberg",
-    "streamUrl": "https://livecdn.bloomberg.com/live/live.m3u8",
-    "colorHex": "#8E24AA"
+    "name": "CNBC",
+    "streamUrl": "https://t.freetv.fun/live/cnbc.m3u8",
+    "colorHex": "#0D47A1"
+  },
+  {
+    "name": "CNBC Arabia",
+    "streamUrl": "https://t.freetv.fun/live/cnbc-arabia.m3u8",
+    "colorHex": "#00695C"
+  },
+  {
+    "name": "NHK World Japan",
+    "streamUrl": "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8",
+    "colorHex": "#D32F2F"
+  },
+  {
+    "name": "Global News National",
+    "streamUrl": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8",
+    "colorHex": "#1976D2"
+  },
+  {
+    "name": "NDTV 24x7",
+    "streamUrl": "https://t.freetv.fun/live/ndtv-24x7.m3u8",
+    "colorHex": "#C62828"
+  },
+  {
+    "name": "NDTV Profit",
+    "streamUrl": "https://t.freetv.fun/live/ndtv-profit.m3u8",
+    "colorHex": "#2E7D32"
   }
 ]
