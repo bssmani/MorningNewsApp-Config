@@ -1,0 +1,26 @@
+name: RSS Manager Pipeline
+on:
+  schedule:
+    - cron: "0 0,12 * * *" # Runs daily at 00:00 and 12:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+      - name: Install Requirements
+        run: pip install requests
+      - name: Generate JSON
+        run: python scripts/discover_and_build.py
+      - name: Push to Repository
+        run: |
+          git config --global user.name "RSS Janitor"
+          git config --global user.email "bot@github.com"
+          git add gistfile1.json
+          git commit -m "Auto-updated RSS feeds" || echo "No changes"
+          git push
