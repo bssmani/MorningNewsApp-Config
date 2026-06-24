@@ -1,8 +1,8 @@
 # Category | Region | URL | CustomName
 general | IN | https://feeds.feedburner.com/ndtvnews-india-news | NDTV India
-general | AE | https://www.khaleejtimes.com/rss-feeds/uae-news | Khaleej Times
-general | US | https://rss.nytimes.com/services/xml/rss/nyt/World.xml | NYT World
-general | UK | http://feeds.bbci.co.uk/news/uk/rss.xml | BBC News
+world | AE | https://www.khaleejtimes.com/rss-feeds/uae-news | Khaleej Times
+world | US | https://rss.nytimes.com/services/xml/rss/nyt/World.xml | NYT World
+world | UK | http://feeds.bbci.co.uk/news/uk/rss.xml | BBC News
 business | IN | https://economictimes.indiatimes.com/rssfeedstopstories.cms | Economic Times
 business | UK | https://www.ft.com/?format=rss | Financial Times
 business | US | https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml | WSJ Business
