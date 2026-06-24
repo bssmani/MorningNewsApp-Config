@@ -1,7 +1,7 @@
 [
   {
     "id": "36064469",
-    "name": "feeds.feedburner.com",
+    "name": "NDTV",
     "url": "https://feeds.feedburner.com/ndtvnews-india-news",
     "category": "general",
     "region": "IN",
@@ -10,7 +10,7 @@
   },
   {
     "id": "7384643e",
-    "name": "rss.nytimes.com",
+    "name": "NYTimes",
     "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
     "category": "general",
     "region": "US",
