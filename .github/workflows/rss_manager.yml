@@ -21,6 +21,13 @@ jobs:
         run: |
           git config --global user.name "RSS Janitor"
           git config --global user.email "bot@github.com"
+          # 1. Fetch the latest changes from the remote
+          git fetch origin main
+          # 2. Add the file
           git add gistfile1.json
+          # 3. Commit only if there are changes
           git commit -m "Auto-updated RSS feeds" || echo "No changes"
+          # 4. Rebase to ensure we are on top of the latest remote commit
+          git pull --rebase origin main
+          # 5. Finally, push
           git push
