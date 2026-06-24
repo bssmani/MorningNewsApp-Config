@@ -243,10 +243,11 @@ def run_daily_check():
             }
             results.append(entry)
 
-    filename = "gistfile2.json"
-    with open(filename, "w", encoding="utf-8") as out:
+filename = "gistfile2.json"
+with open(filename, "w", encoding="utf-8") as out:
     json.dump(results, out, indent=2, ensure_ascii=False)
-    print(f"✅ Saved {filename} with {len(results)} feeds")
+
+print(f"✅ Saved {filename} with {len(results)} feeds")
 
 if __name__ == "__main__":
     run_daily_check()
