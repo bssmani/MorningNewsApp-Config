@@ -7,27 +7,27 @@ import uuid
 
 # List of Indian publication homepages to scan
 PUBLICATIONS = {
-  "The Times of India": "https://timesofindia.indiatimes.com",
-  "The Economic Times": "https://economictimes.indiatimes.com",
-  "Navbharat Times": "https://navbharattimes.indiatimes.com",
-  "Maharashtra Times": "https://maharashtratimes.com",
-  "Ei Samay": "https://eisamay.com",
-  "Vijaya Karnataka": "https://vijaykarnataka.com",
-  "Times Now": "https://www.timesnownews.com",
-  "ET Now": "https://www.etnownews.com",
-  "Zoom Entertainment": "https://www.zoomtventertainment.com",
+    "The Times of India": "https://timesofindia.indiatimes.com",
+    "The Economic Times": "https://economictimes.indiatimes.com",
+    "Navbharat Times": "https://navbharattimes.indiatimes.com",
+    "Maharashtra Times": "https://maharashtratimes.com",
+    "Ei Samay": "https://eisamay.com",
+    "Vijaya Karnataka": "https://vijaykarnataka.com",
+    "Times Now": "https://www.timesnownews.com",
+    "ET Now": "https://www.etnownews.com",
+    "Zoom Entertainment": "https://www.zoomtventertainment.com",
+    
+    "Hindustan Times": "https://www.hindustantimes.com",
+    "Mint": "https://www.livemint.com",
+    "Hindustan": "https://www.livehindustan.com",
 
-  "Hindustan Times": "https://www.hindustantimes.com",
-  "Mint": "https://www.livemint.com",
-  "Hindustan": "https://www.livehindustan.com",
-
-  "Dainik Jagran": "https://www.jagran.com",
-  "Naidunia": "https://www.naidunia.com",
-  "iNext Live": "https://www.inextlive.com",
-  "Punjabi Jagran": "https://www.punjabijagran.com",
-  "Gujarati Jagran": "https://www.gujaratijagran.com",
-  "OnlyMyHealth": "https://www.onlymyhealth.com",
-  "HerZindagi": "https://www.herzindagi.com",
+      "Dainik Jagran": "https://www.jagran.com",
+      "Naidunia": "https://www.naidunia.com",
+      "iNext Live": "https://www.inextlive.com",
+      "Punjabi Jagran": "https://www.punjabijagran.com",
+      "Gujarati Jagran": "https://www.gujaratijagran.com",
+      "OnlyMyHealth": "https://www.onlymyhealth.com",
+      "HerZindagi": "https://www.herzindagi.com",
 
   "Dainik Bhaskar": "https://www.bhaskar.com",
   "Divya Bhaskar": "https://www.divyabhaskar.co.in",
@@ -243,11 +243,13 @@ def run_daily_check():
             }
             results.append(entry)
 
-filename = "gistfile2.json"
-with open(filename, "w", encoding="utf-8") as out:
-    json.dump(results, out, indent=2, ensure_ascii=False)
+    # ✅ Save results inside the function
+    filename = "gistfile2.json"
+    with open(filename, "w", encoding="utf-8") as out:
+        json.dump(results, out, indent=2, ensure_ascii=False)
 
-print(f"✅ Saved {filename} with {len(results)} feeds")
+    print(f"✅ Saved {filename} with {len(results)} feeds")
 
 if __name__ == "__main__":
     run_daily_check()
+    
