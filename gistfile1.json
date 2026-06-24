@@ -1,0 +1,137 @@
+[
+  {
+    "id": "36064469",
+    "name": "feeds.feedburner.com",
+    "url": "https://feeds.feedburner.com/ndtvnews-india-news",
+    "category": "general",
+    "region": "IN",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "7384643e",
+    "name": "rss.nytimes.com",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "category": "general",
+    "region": "US",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "9baccb69",
+    "name": "feeds.bbci.co.uk",
+    "url": "http://feeds.bbci.co.uk/news/uk/rss.xml",
+    "category": "general",
+    "region": "UK",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "f577ee9f",
+    "name": "economictimes.indiatimes.com",
+    "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms",
+    "category": "business",
+    "region": "IN",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "02d91623",
+    "name": "www.ft.com",
+    "url": "https://www.ft.com/?format=rss",
+    "category": "business",
+    "region": "UK",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "97ced886",
+    "name": "feeds.a.dj.com",
+    "url": "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml",
+    "category": "business",
+    "region": "US",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "afce578e",
+    "name": "feeds.feedburner.com",
+    "url": "https://feeds.feedburner.com/gadgets360-latest",
+    "category": "technology",
+    "region": "IN",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "d0abb8be",
+    "name": "techcrunch.com",
+    "url": "https://techcrunch.com/feed/",
+    "category": "technology",
+    "region": "US",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "6c9c5ec2",
+    "name": "feeds.bbci.co.uk",
+    "url": "http://feeds.bbci.co.uk/sport/rss.xml",
+    "category": "sports",
+    "region": "UK",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "60f30396",
+    "name": "timesofindia.indiatimes.com",
+    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
+    "category": "entertainment",
+    "region": "IN",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "b3c2473b",
+    "name": "feeds.bbci.co.uk",
+    "url": "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+    "category": "entertainment",
+    "region": "UK",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "7f2ade6e",
+    "name": "rss.nytimes.com",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
+    "category": "health",
+    "region": "US",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "b4d3c31a",
+    "name": "www.newscientist.com",
+    "url": "https://www.newscientist.com/feed/home/",
+    "category": "science",
+    "region": "UK",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "bff1110a",
+    "name": "indianexpress.com",
+    "url": "https://indianexpress.com/section/lifestyle/feed/",
+    "category": "lifestyle",
+    "region": "IN",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "249653be",
+    "name": "www.autocar.co.uk",
+    "url": "https://www.autocar.co.uk/rss/news",
+    "category": "auto",
+    "region": "UK",
+    "priority": 90,
+    "active": true
+  }
+]
