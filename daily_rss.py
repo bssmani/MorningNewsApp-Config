@@ -185,6 +185,8 @@ PUBLICATIONS = {
 
 # Simple category detection based on URL keywords
 def detect_category(url):
+    if not url:   # ✅ Skip None or empty URLs
+        return "general"
     url_lower = url.lower()
     if "business" in url_lower or "market" in url_lower or "economy" in url_lower:
         return "business"
@@ -208,13 +210,17 @@ def discover_rss(url):
         resp = requests.get(url, timeout=10)
         soup = BeautifulSoup(resp.text, "html.parser")
         for link in soup.find_all("link", type=["application/rss+xml", "application/atom+xml"]):
-            feeds.append(link.get("href"))
+            href = link.get("href")
+            if href:   # ✅ Only append valid hrefs
+                feeds.append(href)
     except Exception as e:
         print(f"⚠️ Error scraping {url}: {e}")
     return feeds
 
 def validate_feed(feed_url):
     """Check if feed is functional"""
+    if not feed_url:   # ✅ Skip invalid URLs
+        return False
     try:
         resp = requests.get(feed_url, timeout=5)
         if resp.status_code == 200:
@@ -230,6 +236,8 @@ def run_daily_check():
     for name, homepage in PUBLICATIONS.items():
         feeds = discover_rss(homepage)
         for f in feeds:
+            if not f:   # ✅ Skip None feeds
+                continue
             active = validate_feed(f)
             category = detect_category(f)
             entry = {
@@ -243,7 +251,6 @@ def run_daily_check():
             }
             results.append(entry)
 
-    # ✅ Save results inside the function
     filename = "gistfile2.json"
     with open(filename, "w", encoding="utf-8") as out:
         json.dump(results, out, indent=2, ensure_ascii=False)
@@ -252,4 +259,3 @@ def run_daily_check():
 
 if __name__ == "__main__":
     run_daily_check()
-    
