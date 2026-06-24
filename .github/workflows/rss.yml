@@ -33,7 +33,7 @@ jobs:
             -H "Authorization: token $GIST_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
             -X PATCH \
-            https://api.github.com/gists/<your_gist_id> \
+            https://api.github.com/gists/bssmani \
             -d '{"files": {"gistfile2.json": {"content": "'"$(cat gistfile2.json)"'"}}}'
 
       - name: Commit gistfile2.json to repo
