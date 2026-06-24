@@ -1,0 +1,25 @@
+# Category | Region | URL
+general | IN | https://feeds.feedburner.com/ndtvnews-india-news
+general | AE | https://www.khaleejtimes.com/rss-feeds/uae-news
+general | US | https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+general | UK | http://feeds.bbci.co.uk/news/uk/rss.xml
+business | IN | https://economictimes.indiatimes.com/rssfeedstopstories.cms
+business | UK | https://www.ft.com/?format=rss
+business | US | https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml
+technology | IN | https://feeds.feedburner.com/gadgets360-latest
+technology | US | https://techcrunch.com/feed/
+technology | US | https://www.theverge.com/rss/index.xml
+sports | IN | https://feeds.feedburner.com/ndtvcricket-latest
+sports | UK | http://feeds.bbci.co.uk/sport/rss.xml
+sports | GLOBAL | https://www.espn.com/espn/rss/news
+entertainment | IN | https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms
+entertainment | US | https://www.eonline.com/rss/index.xml
+entertainment | UK | http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml
+health | US | https://rss.nytimes.com/services/xml/rss/nyt/Health.xml
+health | GLOBAL | https://rss.medicalnewstoday.com/medicalnewstoday-featured.xml
+science | US | https://www.nasa.gov/rss/dyn/breaking_news.rss
+science | UK | https://www.newscientist.com/feed/home/
+lifestyle | IN | https://indianexpress.com/section/lifestyle/feed/
+lifestyle | US | https://rss.nytimes.com/services/xml/rss/nyt/Lifestyle.xml
+auto | UK | https://www.autocar.co.uk/rss/news
+auto | GLOBAL | https://www.autoblog.com/rss.xml
