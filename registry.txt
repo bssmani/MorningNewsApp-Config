@@ -23,3 +23,45 @@ lifestyle | IN | https://indianexpress.com/section/lifestyle/feed/ | Indian Expr
 lifestyle | US | https://rss.nytimes.com/services/xml/rss/nyt/Lifestyle.xml | NYT Lifestyle
 auto | UK | https://www.autocar.co.uk/rss/news | Autocar
 auto | GLOBAL | https://www.autoblog.com/rss.xml | Autoblog
+world | US | https://rss.cnn.com/rss/edition_world.rss | CNN World
+world | US | https://feeds.npr.org/1004/rss.xml | NPR World
+world | US | https://www.voanews.com/api/zmgqem$rqo | VOA World
+world | UK | https://feeds.skynews.com/feeds/rss/world.xml | Sky News World
+world | UK | https://www.theguardian.com/world/rss | Guardian World
+world | AE | https://www.thenationalnews.com/rss | The National UAE
+world | AE | https://gulfnews.com/rss | Gulf News
+world | QA | https://www.aljazeera.com/xml/rss/all.xml | Al Jazeera
+world | SA | https://www.arabnews.com/rss.xml | Arab News
+world | IL | https://www.jpost.com/Rss/RssFeedsHeadlines.aspx | Jerusalem Post
+business | US | https://feeds.bloomberg.com/markets/news.rss | Bloomberg Markets
+business | US | https://fortune.com/feed/ | Fortune
+business | US | https://www.forbes.com/business/feed/ | Forbes Business
+business | UK | https://www.reutersagency.com/feed/?best-topics=business-finance | Reuters Business
+business | AE | https://www.khaleejtimes.com/rss/business | Khaleej Times Business
+technology | US | https://www.wired.com/feed/rss | Wired
+technology | US | https://arstechnica.com/feed/ | Ars Technica
+technology | US | https://www.zdnet.com/news/rss.xml | ZDNet
+technology | GLOBAL | https://www.engadget.com/rss.xml | Engadget
+technology | GLOBAL | https://www.androidauthority.com/feed | Android Authority
+sports | GLOBAL | https://www.skysports.com/rss/12040 | Sky Sports
+sports | GLOBAL | https://feeds.bbci.co.uk/sport/football/rss.xml | BBC Football
+sports | US | https://www.cbssports.com/rss/headlines/ | CBS Sports
+sports | GLOBAL | https://sports.yahoo.com/rss/ | Yahoo Sports
+entertainment | US | https://variety.com/feed/ | Variety
+entertainment | US | https://www.hollywoodreporter.com/feed/ | Hollywood Reporter
+entertainment | US | https://deadline.com/feed/ | Deadline
+entertainment | UK | https://www.nme.com/feed | NME
+health | US | https://www.webmd.com/rss/news_breaking.xml | WebMD
+health | GLOBAL | https://www.who.int/feeds/entity/news/rss.xml | WHO News
+health | US | https://www.medscape.com/rss/public/medscape.xml | Medscape
+science | US | https://www.sciencedaily.com/rss/all.xml | ScienceDaily
+science | US | https://phys.org/rss-feed/ | Phys.org
+science | GLOBAL | https://www.nature.com/nature.rss | Nature
+lifestyle | US | https://www.foodandwine.com/feed | Food & Wine
+lifestyle | US | https://www.travelandleisure.com/feed | Travel + Leisure
+lifestyle | UK | https://www.countryliving.com/uk/rss/all.xml | Country Living UK
+auto | US | https://www.motortrend.com/feeds/all/ | MotorTrend
+auto | US | https://www.caranddriver.com/rss/all.xml | Car and Driver
+auto | GLOBAL | https://www.topgear.com/rss | Top Gear
+auto | GLOBAL | https://www.motor1.com/rss/news/all/ | Motor1
+
