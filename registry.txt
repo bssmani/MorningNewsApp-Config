@@ -4,13 +4,13 @@ world | AE | https://www.khaleejtimes.com/rss-feeds/uae-news | Khaleej Times
 world | US | https://rss.nytimes.com/services/xml/rss/nyt/World.xml | NYT World
 world | UK | http://feeds.bbci.co.uk/news/uk/rss.xml | BBC News
 business | IN | https://economictimes.indiatimes.com/rssfeedstopstories.cms | Economic Times
-business | UK | https://www.ft.com/?format=rss | Financial Times
+business | GB | https://www.ft.com/?format=rss | Financial Times
 business | US | https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml | WSJ Business
 technology | IN | https://feeds.feedburner.com/gadgets360-latest | Gadgets 360
 technology | US | https://techcrunch.com/feed/ | TechCrunch
 technology | US | https://www.theverge.com/rss/index.xml | The Verge
 sports | IN | https://feeds.feedburner.com/ndtvcricket-latest | NDTV Cricket
-sports | UK | http://feeds.bbci.co.uk/sport/rss.xml | BBC Sport
+sports | GB | http://feeds.bbci.co.uk/sport/rss.xml | BBC Sport
 sports | GLOBAL | https://www.espn.com/espn/rss/news | ESPN
 entertainment | IN | https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms | TOI Entertainment
 entertainment | US | https://www.eonline.com/rss/index.xml | E! Online
@@ -21,13 +21,13 @@ science | US | https://www.nasa.gov/rss/dyn/breaking_news.rss | NASA Science
 science | UK | https://www.newscientist.com/feed/home/ | New Scientist
 lifestyle | IN | https://indianexpress.com/section/lifestyle/feed/ | Indian Express
 lifestyle | US | https://rss.nytimes.com/services/xml/rss/nyt/Lifestyle.xml | NYT Lifestyle
-auto | UK | https://www.autocar.co.uk/rss/news | Autocar
+auto | GB | https://www.autocar.co.uk/rss/news | Autocar
 auto | GLOBAL | https://www.autoblog.com/rss.xml | Autoblog
 world | US | https://rss.cnn.com/rss/edition_world.rss | CNN World
 world | US | https://feeds.npr.org/1004/rss.xml | NPR World
 world | US | https://www.voanews.com/api/zmgqem$rqo | VOA World
-world | UK | https://feeds.skynews.com/feeds/rss/world.xml | Sky News World
-world | UK | https://www.theguardian.com/world/rss | Guardian World
+world | GB | https://feeds.skynews.com/feeds/rss/world.xml | Sky News World
+world | GB | https://www.theguardian.com/world/rss | Guardian World
 world | AE | https://www.thenationalnews.com/rss | The National UAE
 world | AE | https://gulfnews.com/rss | Gulf News
 world | QA | https://www.aljazeera.com/xml/rss/all.xml | Al Jazeera
@@ -36,7 +36,7 @@ world | IL | https://www.jpost.com/Rss/RssFeedsHeadlines.aspx | Jerusalem Post
 business | US | https://feeds.bloomberg.com/markets/news.rss | Bloomberg Markets
 business | US | https://fortune.com/feed/ | Fortune
 business | US | https://www.forbes.com/business/feed/ | Forbes Business
-business | UK | https://www.reutersagency.com/feed/?best-topics=business-finance | Reuters Business
+business | GB | https://www.reutersagency.com/feed/?best-topics=business-finance | Reuters Business
 business | AE | https://www.khaleejtimes.com/rss/business | Khaleej Times Business
 technology | US | https://www.wired.com/feed/rss | Wired
 technology | US | https://arstechnica.com/feed/ | Ars Technica
@@ -50,7 +50,7 @@ sports | GLOBAL | https://sports.yahoo.com/rss/ | Yahoo Sports
 entertainment | US | https://variety.com/feed/ | Variety
 entertainment | US | https://www.hollywoodreporter.com/feed/ | Hollywood Reporter
 entertainment | US | https://deadline.com/feed/ | Deadline
-entertainment | UK | https://www.nme.com/feed | NME
+entertainment | GB | https://www.nme.com/feed | NME
 health | US | https://www.webmd.com/rss/news_breaking.xml | WebMD
 health | GLOBAL | https://www.who.int/feeds/entity/news/rss.xml | WHO News
 health | US | https://www.medscape.com/rss/public/medscape.xml | Medscape
@@ -59,7 +59,7 @@ science | US | https://phys.org/rss-feed/ | Phys.org
 science | GLOBAL | https://www.nature.com/nature.rss | Nature
 lifestyle | US | https://www.foodandwine.com/feed | Food & Wine
 lifestyle | US | https://www.travelandleisure.com/feed | Travel + Leisure
-lifestyle | UK | https://www.countryliving.com/uk/rss/all.xml | Country Living UK
+lifestyle | GB | https://www.countryliving.com/uk/rss/all.xml | Country Living UK
 auto | US | https://www.motortrend.com/feeds/all/ | MotorTrend
 auto | US | https://www.caranddriver.com/rss/all.xml | Car and Driver
 auto | GLOBAL | https://www.topgear.com/rss | Top Gear
