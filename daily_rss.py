@@ -109,6 +109,7 @@ PUBLICATIONS = {
   "Prajavani": "https://www.prajavani.net",
   "Udayavani": "https://www.udayavani.com",
   "Kannada Prabha": "https://www.kannadaprabha.com",
+  "Star of Mysore": "https://starofmysore.com/",
 
   "Lokmat": "https://www.lokmat.com",
   "Lokmat Times": "https://www.lokmattimes.com",
