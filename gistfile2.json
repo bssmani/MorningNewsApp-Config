@@ -1,6 +1,6 @@
 [
   {
-    "id": "16cee55a",
+    "id": "74f9d5f0",
     "name": "Navbharat Times",
     "url": "https://navbharattimes.indiatimes.com/langapi/sitemap/gstandrssfeed/1217647547.xml",
     "category": "technology",
@@ -9,7 +9,7 @@
     "active": true
   },
   {
-    "id": "f3d26c05",
+    "id": "a45d57a7",
     "name": "Times Now",
     "url": "https://www.timesnownews.com/feeds/gns-en-latest.xml",
     "category": "general",
@@ -18,7 +18,7 @@
     "active": true
   },
   {
-    "id": "61c39139",
+    "id": "0f3053dd",
     "name": "Times Now",
     "url": "https://www.timesnownews.com/feeds/newsletter-en-top-stories.xml",
     "category": "general",
@@ -27,7 +27,7 @@
     "active": true
   },
   {
-    "id": "32fe4a9a",
+    "id": "bec22938",
     "name": "ET Now",
     "url": "https://www.etnownews.com/feeds/gns-etn-latest.xml",
     "category": "general",
@@ -36,7 +36,7 @@
     "active": true
   },
   {
-    "id": "62800ff8",
+    "id": "449accb7",
     "name": "The Hindu",
     "url": "https://www.thehindu.com/feeder/default.rss",
     "category": "general",
@@ -45,7 +45,7 @@
     "active": true
   },
   {
-    "id": "ed88e11c",
+    "id": "54a63e72",
     "name": "BusinessLine",
     "url": "https://www.thehindubusinessline.com/feeder/default.rss",
     "category": "business",
@@ -54,7 +54,7 @@
     "active": true
   },
   {
-    "id": "3a148e48",
+    "id": "d2760dd2",
     "name": "Sportstar",
     "url": "https://sportstar.thehindu.com/feeder/default.rss",
     "category": "sports",
@@ -63,7 +63,7 @@
     "active": true
   },
   {
-    "id": "c5656332",
+    "id": "4b4886cb",
     "name": "Frontline",
     "url": "https://frontline.thehindu.com/feeder/default.rss",
     "category": "general",
@@ -72,7 +72,7 @@
     "active": true
   },
   {
-    "id": "5a85dd62",
+    "id": "0df8b49d",
     "name": "News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/text.xml",
     "category": "general",
@@ -81,7 +81,7 @@
     "active": true
   },
   {
-    "id": "90089597",
+    "id": "79fb23b8",
     "name": "News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/latest.xml",
     "category": "general",
@@ -90,7 +90,7 @@
     "active": true
   },
   {
-    "id": "25068d60",
+    "id": "81057ad9",
     "name": "News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/photogallery.xml",
     "category": "general",
@@ -99,7 +99,7 @@
     "active": true
   },
   {
-    "id": "00c727e7",
+    "id": "ac1bf5c2",
     "name": "News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/web-stories.xml",
     "category": "general",
@@ -108,7 +108,7 @@
     "active": true
   },
   {
-    "id": "f2f860ab",
+    "id": "d9367642",
     "name": "News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/video.xml",
     "category": "general",
@@ -117,7 +117,7 @@
     "active": true
   },
   {
-    "id": "86a87140",
+    "id": "47c034bc",
     "name": "CNN-News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/text.xml",
     "category": "general",
@@ -126,7 +126,7 @@
     "active": true
   },
   {
-    "id": "947f4462",
+    "id": "543df179",
     "name": "CNN-News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/latest.xml",
     "category": "general",
@@ -135,7 +135,7 @@
     "active": true
   },
   {
-    "id": "219c9ad7",
+    "id": "7771cc0a",
     "name": "CNN-News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/photogallery.xml",
     "category": "general",
@@ -144,7 +144,7 @@
     "active": true
   },
   {
-    "id": "cc91e14c",
+    "id": "06a8e82e",
     "name": "CNN-News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/web-stories.xml",
     "category": "general",
@@ -153,7 +153,7 @@
     "active": true
   },
   {
-    "id": "2cff3149",
+    "id": "89708a5e",
     "name": "CNN-News18",
     "url": "https://www.news18.com/commonfeeds/v1/eng/rss/video.xml",
     "category": "general",
@@ -162,7 +162,7 @@
     "active": true
   },
   {
-    "id": "6de76795",
+    "id": "07760b6f",
     "name": "Moneycontrol",
     "url": "https://www.moneycontrol.com/rss/latestnews.xml",
     "category": "general",
@@ -171,7 +171,7 @@
     "active": true
   },
   {
-    "id": "261a7d6e",
+    "id": "219ee770",
     "name": "Forbes India",
     "url": "https://www.forbesindia.com/commonfeeds/v1/frb/rss/text.xml",
     "category": "general",
@@ -180,7 +180,7 @@
     "active": true
   },
   {
-    "id": "8cd1c425",
+    "id": "29c9893e",
     "name": "Forbes India",
     "url": "https://www.forbesindia.com/commonfeeds/v1/frb/rss/audio.xml",
     "category": "general",
@@ -189,7 +189,7 @@
     "active": true
   },
   {
-    "id": "9e642646",
+    "id": "dad0ade4",
     "name": "Forbes India",
     "url": "https://www.forbesindia.com/commonfeeds/v1/frb/rss/videos.xml",
     "category": "general",
@@ -198,7 +198,7 @@
     "active": true
   },
   {
-    "id": "7d2ab006",
+    "id": "af229001",
     "name": "Forbes India",
     "url": "https://www.forbesindia.com/commonfeeds/v1/frb/rss/blog.xml",
     "category": "general",
@@ -207,7 +207,7 @@
     "active": true
   },
   {
-    "id": "b1ce0039",
+    "id": "82ad2875",
     "name": "Mathrubhumi",
     "url": "https://www.mathrubhumi.com/sitemaps/mathrubhumi/rss",
     "category": "technology",
@@ -216,7 +216,7 @@
     "active": true
   },
   {
-    "id": "201e3fc7",
+    "id": "0ad2b5df",
     "name": "Mathrubhumi News",
     "url": "https://english.mathrubhumi.com/sitemaps/mathrubhumien/rss",
     "category": "technology",
@@ -225,7 +225,7 @@
     "active": true
   },
   {
-    "id": "68229046",
+    "id": "2b1c6d50",
     "name": "Dinamani",
     "url": "https://www.dinamani.com/stories.rss",
     "category": "general",
@@ -234,16 +234,7 @@
     "active": true
   },
   {
-    "id": "9d28f165",
-    "name": "The Federal",
-    "url": "https://thefederal.com/google_feeds.xml",
-    "category": "general",
-    "region": "IN",
-    "priority": 90,
-    "active": false
-  },
-  {
-    "id": "ef09cfc9",
+    "id": "d5d3717f",
     "name": "Star of Mysore",
     "url": "https://starofmysore.com/feed/",
     "category": "general",
@@ -252,7 +243,7 @@
     "active": true
   },
   {
-    "id": "25e7caea",
+    "id": "97f6673b",
     "name": "Star of Mysore",
     "url": "https://starofmysore.com/comments/feed/",
     "category": "general",
@@ -261,7 +252,7 @@
     "active": true
   },
   {
-    "id": "d51b67d5",
+    "id": "3297f636",
     "name": "Star of Mysore",
     "url": "https://starofmysore.com/home/feed/",
     "category": "general",
@@ -270,7 +261,7 @@
     "active": false
   },
   {
-    "id": "345b8d09",
+    "id": "96e90355",
     "name": "Navabharat",
     "url": "https://navbharatlive.com/feed",
     "category": "general",
@@ -279,7 +270,7 @@
     "active": true
   },
   {
-    "id": "99f795fe",
+    "id": "b2290dcf",
     "name": "Sambad",
     "url": "https://sambad.in/rss",
     "category": "general",
@@ -288,16 +279,7 @@
     "active": true
   },
   {
-    "id": "541588b8",
-    "name": "Dharitri",
-    "url": "https://www.dharitri.com/feed/",
-    "category": "technology",
-    "region": "IN",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "08cd56c7",
+    "id": "9378eb72",
     "name": "Asomiya Pratidin",
     "url": "https://www.asomiyapratidin.in/rss",
     "category": "general",
@@ -306,16 +288,16 @@
     "active": true
   },
   {
-    "id": "5de7ee6a",
+    "id": "44f9e790",
     "name": "The Assam Tribune",
     "url": "https://assamtribune.com/google_feeds.xml",
     "category": "general",
     "region": "IN",
     "priority": 90,
-    "active": false
+    "active": true
   },
   {
-    "id": "ec4ea4d2",
+    "id": "72fa786f",
     "name": "Deshbandhu",
     "url": "https://www.deshbandhu.co.in/google_feeds.xml",
     "category": "general",
@@ -324,7 +306,7 @@
     "active": true
   },
   {
-    "id": "28f031a9",
+    "id": "ea35550f",
     "name": "Dainik Savera Times",
     "url": "https://dainiksaveratimes.com/feed/",
     "category": "general",
@@ -333,7 +315,7 @@
     "active": true
   },
   {
-    "id": "f7667063",
+    "id": "df1ebf82",
     "name": "Dainik Savera Times",
     "url": "https://dainiksaveratimes.com/comments/feed/",
     "category": "general",
@@ -342,7 +324,7 @@
     "active": false
   },
   {
-    "id": "5530365e",
+    "id": "a13fcba5",
     "name": "Dainik Savera Times",
     "url": "https://dainiksaveratimes.com/web/feed/",
     "category": "general",
@@ -351,7 +333,7 @@
     "active": true
   },
   {
-    "id": "fcd270c5",
+    "id": "232d2727",
     "name": "Deshdoot",
     "url": "https://deshdoot.com/feed/",
     "category": "general",
@@ -360,7 +342,7 @@
     "active": true
   },
   {
-    "id": "e86914b0",
+    "id": "c294fe95",
     "name": "Deshdoot",
     "url": "https://deshdoot.com/comments/feed/",
     "category": "general",
@@ -369,7 +351,7 @@
     "active": false
   },
   {
-    "id": "11e4a714",
+    "id": "730687f4",
     "name": "Deshdoot",
     "url": "https://deshdoot.com/web-stories/feed/",
     "category": "general",
@@ -378,7 +360,7 @@
     "active": true
   },
   {
-    "id": "6e546a2a",
+    "id": "3acef94e",
     "name": "Vaartha",
     "url": "https://vaartha.com/feed/",
     "category": "general",
@@ -387,7 +369,7 @@
     "active": true
   },
   {
-    "id": "381ed0f3",
+    "id": "710235e8",
     "name": "Vaartha",
     "url": "https://vaartha.com/web-stories/feed/",
     "category": "general",
@@ -396,7 +378,7 @@
     "active": true
   },
   {
-    "id": "33f1f917",
+    "id": "3dbf3377",
     "name": "Namasthe Telangana",
     "url": "https://www.ntnews.com/feed",
     "category": "general",
@@ -405,7 +387,7 @@
     "active": true
   },
   {
-    "id": "b23bbf05",
+    "id": "6ba75fd4",
     "name": "Deccan Chronicle",
     "url": "https://www.deccanchronicle.com/google_feeds.xml",
     "category": "general",
@@ -414,7 +396,7 @@
     "active": false
   },
   {
-    "id": "c49eb6f6",
+    "id": "a7814531",
     "name": "Asianet News",
     "url": "https://www.asianetnews.com/rss",
     "category": "general",
@@ -423,7 +405,7 @@
     "active": true
   },
   {
-    "id": "f962c5bb",
+    "id": "a8038e90",
     "name": "Deshabhimani",
     "url": "/feeds.news.xml",
     "category": "general",
@@ -432,7 +414,7 @@
     "active": false
   },
   {
-    "id": "dcf74740",
+    "id": "f20dd3d8",
     "name": "Deshabhimani",
     "url": "/feeds.articles.xml",
     "category": "general",
@@ -441,7 +423,7 @@
     "active": false
   },
   {
-    "id": "fb81c4a2",
+    "id": "e5a1369b",
     "name": "Deshabhimani",
     "url": "/feeds.interviews.xml",
     "category": "general",
@@ -450,7 +432,7 @@
     "active": false
   },
   {
-    "id": "1a9dc9f4",
+    "id": "399d1611",
     "name": "Deshabhimani",
     "url": "/feeds.photo.xml",
     "category": "general",
@@ -459,7 +441,7 @@
     "active": false
   },
   {
-    "id": "967bd497",
+    "id": "6a85b09f",
     "name": "Deshabhimani",
     "url": "/feeds.visual.xml",
     "category": "general",
@@ -468,7 +450,7 @@
     "active": false
   },
   {
-    "id": "fbbe3287",
+    "id": "558af2aa",
     "name": "Deshabhimani",
     "url": "/feeds.podcasts.xml",
     "category": "general",
@@ -477,7 +459,16 @@
     "active": false
   },
   {
-    "id": "3c8ab0dd",
+    "id": "6e656120",
+    "name": "Vartha Bharati",
+    "url": "https://www.varthabharati.in/google_feeds.xml",
+    "category": "general",
+    "region": "IN",
+    "priority": 90,
+    "active": false
+  },
+  {
+    "id": "f7b0c8b5",
     "name": "Greater Kashmir",
     "url": "https://www.greaterkashmir.com/rss",
     "category": "general",
@@ -486,7 +477,7 @@
     "active": true
   },
   {
-    "id": "fdb18e55",
+    "id": "5d70b8a7",
     "name": "Rising Kashmir",
     "url": "https://risingkashmir.com/rss",
     "category": "general",
