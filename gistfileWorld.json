@@ -1,146 +1,262 @@
 [
   {
-    "id": "f088a042",
-    "name": "BBC News",
-    "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "id": "73cf8d7c",
+    "sourceName": "AP News",
+    "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks - AP News",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcDBTQkFEbzlzV3FGUXhBeks0Wm5CV2RIU0J4aFcwTl9jRFRNeHRNbkxzVEZNa3ZNSTcwS1FDZm5PM3RDbVJuMFc0bWRwR1hhSlZFVGlMSkdvOC1GcnlLUWpUbjQ0aFlMYWN3X0gtdVBUWHZYSHNKR3BKelJtdUZ1dUpnTWVubU1BOWowd1N3aE1kckE1Uklya1huN25iLUxYM2Q5N0JtcVY?oc=5",
     "category": "world",
     "region": "World",
-    "priority": 90,
-    "active": true
+    "publishedAt": "Sun, 28 Jun 2026 21:32:00 GMT"
   },
   {
-    "id": "6076ff92",
-    "name": "CNN.com - RSS Channel - World",
-    "url": "http://rss.cnn.com/rss/edition_world.rss",
-    "category": "technology",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "1b7237f7",
-    "name": "International: Top News And Analysis",
-    "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-    "category": "general",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "f8874c82",
-    "name": "NDTV News Search Records Found 1000",
-    "url": "http://feeds.feedburner.com/ndtvnews-world-news",
-    "category": "entertainment",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "e4fb18a1",
-    "name": "NYT > World News",
-    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "id": "9d9d5ef3",
+    "sourceName": "Al Jazeera",
+    "title": "Pakistan says its security forces killed 29 fighters along Afghan border - Al Jazeera",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR19Jc1poM0dWbnJLdjlyTmtYRk9HMUhaeDhILVdqQmNmWjF4RC1jMzNmZW51Sl85QVVmeTZlQl9qMnZUWVJzQlZHUkNqTWVXNFhLR2dMdU1jb0psN3g5dHppRHZCbjM2aE9ROWZQRGJBbkpHNDB4bGhKcWtsbG1ZVC1zc1dmVW1DZFVxMjNacDhlT29DdmRnemVEVnExMFFfUGtXeGxoOVZWOUthLS1aOE1hY9IBuAFBVV95cUxNUEhRTFg1SVJfeXk5bUxBTkhyUGxldTFoWk1TZU9QX21xWTBITHcxUENhaDQwZVpLM29KWE9LaC1VanBUdXhJanh6YnhJY2JfQ2NRdk5lTlBUVkVGRGR0dWFSR0ZFUXdjNWtmM09hdlpvaG9MODlpTWFyYVFvWlNlTWNyZ0kzN01WazMwTEdqTk80QS01MlVzaGk5N2Frdi1MNlI3V05oUUVseHVWSXkzTVozZlAtMXAt?oc=5",
     "category": "world",
     "region": "World",
-    "priority": 90,
-    "active": true
+    "publishedAt": "Mon, 29 Jun 2026 07:28:08 GMT"
   },
   {
-    "id": "dc920d94",
-    "name": "Top stories - Google News",
-    "url": "https://news.google.com/rss",
-    "category": "general",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "e5d29121",
-    "name": "World News, Today World News, Latest International News, World Breaking News, Trending News of World - Times of India",
-    "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
-    "category": "general",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "5c65a82a",
-    "name": "World news | The Guardian",
-    "url": "https://www.theguardian.com/world/rss",
+    "id": "31b9d89e",
+    "sourceName": "Reuters",
+    "title": "UK's likely next leader Burnham to unveil plan to shift power from London - Reuters",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd1Z5RmJmREdKbjhHODVtWTk0Ykdmb3B2N0NSMWxkS3oxWjA2cDBTVjhSYkVLbHBWYnlIYVBJa0RqS0VaNFpLQzM3UnA5SThoU2JPblJEM0tMVEFIOG9SaEZBQlRRV00tdUlwUGZKRGhlSmxEZTh4OVNDSm5STnJ6R3FUVGtkVDdyeTdOQXJhb0ZWaENONFA5NEpNeWVsSE1BVjhhR1VOVTByZw?oc=5",
     "category": "world",
     "region": "World",
-    "priority": 90,
-    "active": true
+    "publishedAt": "Sun, 28 Jun 2026 21:03:00 GMT"
   },
   {
-    "id": "a01abebc",
-    "name": "BBC News",
-    "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "id": "7f52dca6",
+    "sourceName": "France 24",
+    "title": "More than 1,300 excess deaths linked to record-breaking Europe heatwave, WHO says - France 24",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa1FqVWUxczJuZVowaEY3SjFWVG1VcERZdnVRT254VjJEbUFBeUluX1NLa3oyZVMzQVZ0Z1NFZ0xRUTRlSG9kYV93M2QxOEo3cGZOZWdnTk1qNTktclNzNTNrOEswTmZZOUhHMlpydU5BYjVMNzlXMFpmbEF1QkUxQXZsVGxqYUkyemFTOTRvdEpKSEVuampBdDN0bFl0Xy1xRmExbExsWXRkUGNjQk1wbmNhVXF5QlNCZWptRVRsd01Sdw?oc=5",
     "category": "world",
     "region": "World",
-    "priority": 90,
-    "active": true
+    "publishedAt": "Sun, 28 Jun 2026 13:59:40 GMT"
   },
   {
-    "id": "a8707254",
-    "name": "CNN.com - RSS Channel - World",
-    "url": "http://rss.cnn.com/rss/edition_world.rss",
-    "category": "technology",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "88ec6772",
-    "name": "International: Top News And Analysis",
-    "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-    "category": "general",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "88772db4",
-    "name": "NDTV News Search Records Found 1000",
-    "url": "http://feeds.feedburner.com/ndtvnews-world-news",
-    "category": "entertainment",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "ae558304",
-    "name": "NYT > World News",
-    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "id": "34028ebf",
+    "sourceName": "Euronews",
+    "title": "Putin admits oil deficit amid Ukrainian strikes on refineries - Euronews",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOekJkampLeEU1NEt1U1Nydm9uN3lYajJWekh0SGZDN0RzemItWTFqbGlKRUllVjN5Tzk4MlZZQm54T0VXSlU0U1JuRnBvaW5vTFhxVmJjSXpjYXAwZEVpVU5EX19rMmd2RGdBT21hbHM5b3J2cUxIU1dNRVgwbG1Nem1UaXV1ODBCMnJfZWRVTENrdVFZYlhtZTlCQ3VCTGRGdDVDNDk1RkUxWjdqbzVTdFVWOXZWMFNqZVU1aWp1YUd5dVZnRnY1UU1VSQ?oc=5",
     "category": "world",
     "region": "World",
-    "priority": 90,
-    "active": true
+    "publishedAt": "Mon, 29 Jun 2026 05:14:05 GMT"
   },
   {
-    "id": "277d72c8",
-    "name": "Top stories - Google News",
-    "url": "https://news.google.com/rss",
-    "category": "general",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "15234e29",
-    "name": "World News, Today World News, Latest International News, World Breaking News, Trending News of World - Times of India",
-    "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
-    "category": "general",
-    "region": "World",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "a945348d",
-    "name": "World news | The Guardian",
-    "url": "https://www.theguardian.com/world/rss",
+    "id": "ac60509c",
+    "sourceName": "Bloomberg.com",
+    "title": "China Blacklists More Japan Entities as Takaichi Feud Deepens - Bloomberg.com",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOXpQYU5LWFdXNXdha013LWhPR1VuV0FKUnRHSVNpUnluVUVCM3BkdjQyVUVFZmg2V1Z2T2Rvbks3VGZleXBvU0I1SUw3Njc4SUhGWUgtdl85S1VJQ2Z3eGRxYjhsdmV2SGdpRzJLX0ZBdzRpelJoQjV4MjAyUVZkWEQtNWZCOEFib1cta2RBQmxZbko0Z3NxREpjb3owQXZfTlYyVXZSMEQzZVl4NFpwSGhR?oc=5",
     "category": "world",
     "region": "World",
-    "priority": 90,
-    "active": true
+    "publishedAt": "Mon, 29 Jun 2026 08:12:56 GMT"
+  },
+  {
+    "id": "06a889db",
+    "sourceName": "Reuters",
+    "title": "Israel destroys Hezbollah underground infrastructure in southern Lebanon - Reuters",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeHpnQ2htRldyN2wyQkhMc0JqSVdwbDA5VkRCZklRS0t1QURDWHFWRUJEM1BxNnFhN0hCcnRNQ3hvQm9USV9wSkhKZXl2OXJSc2xObjFxRTdCNXVaUVNsdlVsZHd4dDNwVHZTUU5LY1BodWRrZkZHdU1NcFVGMDhfVmpJTnkwSDc4NzdBWTlVUnhKaFg2ZTZiSnNFeDdteG5TVmZDbEtFRGhLSk0yNDFabDdUTDV6SmFJejQ0akZ4OWg?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 23:13:13 GMT"
+  },
+  {
+    "id": "0a5ecf3d",
+    "sourceName": "Fox News",
+    "title": "French investigators probe fatal skydiving plane crash that killed pilot and 10 parachutists - Fox News",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUk0zZXJkSG4tMWE2UkpZNXJyamZoRlhHdTlJRVFZU3pjQzZzckxOSHh5ZGNLdGEwdXgxU201WDBhZFdxdVI0LUhsZ2xac2lJcm13dGItb3prVWkwYk9qbEU1RzZCVWd6bWw4YjE0N042RUJhamVvb1I2cHRaYzgxRGFIQWJUUmVySkU5S0FOZ2hwOGN3bkxOblFiZ0lJNGFwbDkwZDA3TFFqenpYR0tlOWFIVQ?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 21:45:44 GMT"
+  },
+  {
+    "id": "9e909f28",
+    "sourceName": "dw.com",
+    "title": "Serbia: Protests continue after Vucic says he will step down - dw.com",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTjc4dUt6QWZyZDBOcVZBb1hsYUxXajlqTHE4aXcxTDJtdW8zLXNzTFdycW1nckhod3FCbzdaeHlMNURZTlh2Tm9pTktRcG1EZElzOGI2bzdSbndtR19waHdLdFBwNmRLMW1PdzdkeHJFM0d4YjRLUjl1UFR3WnhCdTBMQmtSUnNOR0tmQ2dKak01eGdQV0RB0gGXAUFVX3lxTE4yVDVFMnJZekhmYmJQSEh3UllCTFRTWnNabm5BT0NjRlRrN3haVGh4cjM1VXFyOEZMdWpXLUp4X2REMUJYbjdrWFNnckEzN1hMbURiM0tJak85eE5MeHVzNFVNdlBfRWVVRlR1aHFIU0NzMFV2WHhMY1lvZkxwU2ZyY241Y2pzWkE4anpGeW4wSDFDOUY3dFE?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Mon, 29 Jun 2026 00:12:43 GMT"
+  },
+  {
+    "id": "fe91c09a",
+    "sourceName": "AP News",
+    "title": "Ukrainian drones set another Russian oil refinery ablaze as Putin admits fuel shortages - AP News",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNTZPUlo3WW9DRjJzZzIxV3hsNzhpLUdGZEFGQXRUR0tUd1Q4dURpSnYxcFJFTFJuM0ZTRmd3RUVfZ0FEMlJ5U1ZrYlVLcDBOR2RaMmU4YzAzS0t0UzZBU21rbzlqU19HTjZRN0t0dEo1MWJuSW9RNEV0MVNCNDM1RDFqQU80T0tkTzNvOEpfWEE4SDdIN2R4ZlNuRHRINHc?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Mon, 29 Jun 2026 01:26:00 GMT"
+  },
+  {
+    "id": "3a2cc595",
+    "sourceName": "The New York Times",
+    "title": "Europe’s Heat Politics - The New York Times",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ2xWUmdFY2pjYWducWlnNW41aC1tRmtMdFl0ZF9CelhYQVg4MlJRQ0tQTVNfaEcwRV93Qi1GWjNjSEdPYzRIdmlIWVUyTFFtUnVSYXZ4djJMWmN3bXZZMTFRdnViVVNFTlNrWlFfOEZEVFM0Z2lvVXNEeXpoeWNjYzNkNA?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Mon, 29 Jun 2026 04:58:00 GMT"
+  },
+  {
+    "id": "f86bf111",
+    "sourceName": "BBC",
+    "title": "Australian man charged with murder after dead girl found in suitcase in Thailand - BBC",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6MXAzaHR1UERkZ1ZvT1B2cDBSLThOdWV2NjlkMmhVVWFNTE9lUkRQSXpBWm9TSFRlTGNTbDdwRFZ4TmxyNFAxZFhBZFBZTzl4LW5uLVFYUGhBZw?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Mon, 29 Jun 2026 01:58:29 GMT"
+  },
+  {
+    "id": "691a23b9",
+    "sourceName": "Euronews",
+    "title": "Another heat record broken in Germany - Euronews",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Ga1JremVrNktGNS1pNjg3SGR2MXdTOVQtSW9RVjJZaC1jMmhDbTJnbERyX09vOUtaRUxoQ1VqdnhCQ0d5ejhCcnZoejJ5Y0hjU1pfNFBZWEM4aEZmMTVScTBhYzVYeXQ4ODJIa0o2MDlYS2ZKdnZV?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 15:13:58 GMT"
+  },
+  {
+    "id": "8ccb8d8d",
+    "sourceName": "AP News",
+    "title": "Meet 3 members of Albania's 'Flamingo Revolution' trying to torpedo a Kushner-linked development - AP News",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUFxdl9FQnhKbW9wUUdDYmNtU3lLcVJ5U2Z1TVJPM003YU9CU05PbG01eHNnWmFQWUYxUno0QnJ6RDlPQXFveFpQa202VTZjY2FZT0F4aHJFZXVJMDBlb1N4Z0JDMDBLbVNMRUs4cnpHNEJCeWZSR0xEREhwUDRxSHRJcW1iRVBHSzZ4UXVaWmNPbWI5VndOSmZsWkpLaDJnR2hnNDZoR0ZEZlZqdzhxSDlTYlM?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Mon, 29 Jun 2026 01:39:00 GMT"
+  },
+  {
+    "id": "92caac5e",
+    "sourceName": "New York Post",
+    "title": "Dangerous chemicals, 55-gallon drum, note mentioning Ted Bundy found at home of Philadelphia felon linked to 2 missing women - New York Post",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOT0VyRDBrUjBIbWZPZklKSWpkd0ZpUmM1UWpiY3NwamhjNW1PX05hV0lpQTRFRUxIVkdNdVl3a3lCM1ZXcUI4UjA1RjNpeTJXZ19nY09JaE9xcmxLN3MtNm4tQzVQZUJTUTZGOWRvbFdQdlU5Rk01ZG0tS0l2czhrTHlrSUs4Q3NvZ0dDaUdOakFxNm5aQ1Vzc1UyTzNQVnE2cW5WTjlXb2tYaW56bHZCMUcxcTFTM2VmY0trVnExNjFNNlB5YUdZNDlYakdsY0dSNGR1VW9UcGIwY1g5RV9Za3Q0d1RXVEtWTzQ4RFB5OVNFM28?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Mon, 29 Jun 2026 02:25:00 GMT"
+  },
+  {
+    "id": "17a269bc",
+    "sourceName": "dw.com",
+    "title": "Saudi Aramco helicopter crashes, all 14 passengers killed - dw.com",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ0t1M1pNTDNUOElESW5tbUpSazdzX2FWbjdNQWxpcFc5OU00Y1g5THRDRWl5WkJMdmpBaklxVEpVYVpBYVRBUHZVZlJFb0szRzc0T0lFbVVwaUhuLW5zdWp6YVhuY0Z4RVhqamkyQ3dIU2tCZHlGWC1tSFB6SXR2MEE4aExGdndnZnY4cjdnbEtXYVXSAZMBQVVfeXFMUFFpMnRpN01SMDRETldMMGtTLVZGeTgzcHV5SVNQR3FlRVRIMGtGdHdXWkcyMDR3Z0dNZ2JNcGNnNnJnWTAtUzc0TkU4NTBpeGIxTkxOQzlVTEczQkw1NmRrbkNqbm1PUENqQ3ZpU09nRUxWdm4xTjNWTEE1V2JwdFU4bC13ekhJUDhZZEZxR3lUZWln?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 22:25:00 GMT"
+  },
+  {
+    "id": "f9536764",
+    "sourceName": "Church News",
+    "title": "Church offers guidelines and information for prospective full-time missionaries - Church News",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcnRnZHRlOVBMTEN3VDRnNVpXWkhqWVdmMnA4MFVNemx5WnhMNjBfSkFNYWtxNUZUN2JZNHo5dmFQZ2Vrd09taDY2bzVVWDNvSHBDSWFLeVFOUTRpUGh1R0hxVFFMNnByU2ZHaEEzSVV4OGZMNVVISVdzTWEyTE5yMlJsd3dwOW5jbUlzR0ZUX2JNSHRDejBia3k5M2xVT205YUxKbE5QQV9zbVA4NmlQbF8zZ2VYOGpyVDJxUC1fdjRzY3NTZ3NTQUN0N3Y?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 20:00:00 GMT"
+  },
+  {
+    "id": "d911834e",
+    "sourceName": "The Independent",
+    "title": "Ukraine war latest: Putin admits ‘problems’ in invasion as he warns of fuel shortages - The Independent",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONWdqcmJOWmtwaVp4LTAwSnFsSzRSUVJDVDlBRVU2bjNrOGw0OTQwNzFZeWIyc1NGOFZReEE0Wjh3blYwTjdORXNwNjI1aV96TlZXbGZUSkllZ180Y2l1dlNCZ1NiWFplMjRnRUtQY0pVXzhDN0lSMHUwaDhKa3VkaklrVVREQTJXaVRfQTdFRmUyY1cySTBtaDJCa0xld2w5c1VBV1NBVkFkZUgwaFI4WS1MQTBzMzA?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Mon, 29 Jun 2026 04:18:38 GMT"
+  },
+  {
+    "id": "d74507a6",
+    "sourceName": "CBS News",
+    "title": "Political dissident who fled China by boat arrives in Canada, his friend says - CBS News",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaEpnV216elY4c1hud1E0ZEFzXzlyeHdBWmUtR1I4V3pOZ2N3SmJHWUY3eGxiclNMbjJ2MWFuVlZhMUxnZWFMZjZhMHBoX1VIZ3lTZ2FIV2pPWjJqakhFTDEwanluVnF1MEVCTXRxRW81Y0xtRlgxZlFBTUpHZnAyUg?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sat, 27 Jun 2026 14:33:00 GMT"
+  },
+  {
+    "id": "ea01219b",
+    "sourceName": "BBC",
+    "title": "Uganda's NTV and Daily Monitor say they are under 'military siege' - BBC",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02SzFOTmRsWEpOQl9nVWV6VGhzSVJ3MXN0aHBMTTFyeF9OR01FTklneE9ReWpZeV9FZUUxRGV4S1RaeURValBpTGxsOFZ4Q3Nxclc3ckF6OGp6QQ?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 15:19:53 GMT"
+  },
+  {
+    "id": "956c0d8e",
+    "sourceName": "politico.eu",
+    "title": "Vatican accuses EU of double standards on war - politico.eu",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdldCbXdVbE1zaDhnRU5vUHVtdzJmNHpZZ0VjS2ZLMklHWUxYZ1VvZDJzZXRCNnVDWDdCT3N2dDFsUFBjSk42OFZ2cl81NzJIVXY2bjlEZmwxWmhSelRuMkdXS1RraHJkMXpWaHlLeEV3c2tMRkJCRkwtUXRIRDJYUHdHdXR6ZXhNUGx0RW1uenlwN2VYMFE?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 09:12:00 GMT"
+  },
+  {
+    "id": "48568323",
+    "sourceName": "The New York Times",
+    "title": "China Confirms Death of Pilot Who Flew Small Plane Into Beijing’s Tallest Tower - The New York Times",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbVZrWWQ2NjBheUNrTWY1cUE2VEpLQUdJRWNWS0lGZk9ydGRUR2R5THNXTGN4WlRkNXpZOVd6Y011UFZFVWJlTHcwMWY1SDBkNHU1Y2VubmE2Y3JHcWJyV3BQUGVKTlg4WGg1ZDVfbkI1dlNzLWxyMWgtb1RVdHdDSFhFeGl2eC0ydU5yQy1Gd2k?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 07:22:05 GMT"
+  },
+  {
+    "id": "1a2c259c",
+    "sourceName": "Notes From Poland",
+    "title": "Poland records highest ever temperature as European heatwave moves east - Notes From Poland",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSEx4bC0tMXR6dll4N3pybC1kTXRLMGMyd09BWW1UQ3lucUxCQ1poSnBUeU5PdWVWWGF6c3c0MkxacDJwY1M3bDJSVTFHMGVUQ19LeWVKWmd2TlZhVWtrTTkzYm1GR0hKNTVXUExnNWdaX1V3Ym1yeEdYLUlwQ1hQbVk1M25keEY4azhEcEFheEVUTXdwaXhGVUV0bkpKUDZNeG1sYjdsSFNaaTZ2b1QzbA?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 14:41:44 GMT"
+  },
+  {
+    "id": "116ceb95",
+    "sourceName": "Reuters",
+    "title": "Putin says Russia will press on with front-line campaign regardless of Ukraine proposals - Reuters",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlBHMWQzRkF0LWctUTlFSjFoMDVMaEhycnVwY3RXc1JrVHhUQWJYN2p5QTRkWERUVEljbTZRUEtFVEZYLWFDSGtRWHpaMjRrOG91SS05VHhIcEtKdXJiVnBHY3VBVGlzRVJvRzZadFZlSTk2eUx2ODQydjV1R3dyVUExd1VCVlk4eEZJQkZ5cnktb0VVZlUxdlhUVWlVRXhLMG9ZT2hxbEpTUHJpd0NIZHRicUdmcmJObkdkUVlR?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 23:30:00 GMT"
+  },
+  {
+    "id": "30beb089",
+    "sourceName": "WSJ",
+    "title": "Russians Feel the War’s Hardships as Ukraine Pummels Crimea - WSJ",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNN2x3dzR2bzFGRHpKX2w1N1pGQWtqNS1sQ1RQV09ibExRbXBwSWpvU09RTmxEelNWY3pIME5PWmdIQUgtd2xQdnFHRGlxaGRRZmRNWWdIVWdfSVZ2cTBLd0liVFdvdy1RQUZ4eVJmV0NVMVhIQlFSQkp5WWd1Q0JkMEY1a2NNZk9USURDMDlEZEo0czVFRm1uS1JRMnNEaTRoTFE?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 23:19:00 GMT"
+  },
+  {
+    "id": "c623e786",
+    "sourceName": "PBS",
+    "title": "Ukraine's drone assault ignites major Russian oil refinery, as Putin acknowledges 'difficult period' - PBS",
+    "description": "",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa3o0SlB1R2FBeTBaa3hKajRNMFgtZ0Q5bFk2R2x0X3Q4NFdTbmxRWDFkb18wdDdiUEZpVUI4dmNCS0tEVnhoM0VNVGNNbWRreFRGVjVPS2w2UlFzYlp1ZjhoT0lZTkU4c2FsaXZRTVF5WUZwQ2R4bW1jYkdyeVVRZFFfcVIwZ1RYY2owNlQ4Yl81NDNsUFM0SHFGSjQzeWo0SmVyTmNxMlpZMndDOFItaHFDMHZ2UGVGS3RFQzJHWTVGWTdhYVF0MGJsMNIB0AFBVV95cUxQOXplUFljYWlyQ3BBd3FiejIzclNUeDBPSTc3TnBXdkp6NThNN19FQ0R6SGJmMDM2bWdWVlQ4RExEc1RTdnFScGlvSWltdC1lNGNTRkw5cmNoQTl1dVN0blFvd1hCTmViQnEzbWNYSTRLYkpPMVp6Z3ZBZnNRYW4ycjd3WlB4dTEtX0xJTjlOWjQtOE43MkdWLUtOa182YjlkNFF3ZndGZmVJU2xFWUxKdm9qNlRNcHpOWjlmRk9Zc1prYkxXSmpXcDVSWlI3RU1C?oc=5",
+    "category": "world",
+    "region": "World",
+    "publishedAt": "Sun, 28 Jun 2026 17:35:34 GMT"
   }
 ]
