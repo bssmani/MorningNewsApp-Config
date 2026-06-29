@@ -29,6 +29,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add the generated JSON files
           git add gistfile*.json
-          git commit -m "Daily geo RSS feed update"
+          
+          # THE FIX: Try to commit, but if there are no changes, just echo a message instead of failing
+          git commit -m "Daily geo RSS feed update" || echo "No changes to commit today!"
+          
+          # Push the changes (if any were made)
           git push
