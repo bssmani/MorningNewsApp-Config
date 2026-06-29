@@ -1,128 +1,83 @@
 import requests
-import xml.etree.ElementTree as ET
 import feedparser
 import json
 import uuid
 
-# ---> MAP YOUR GEOS TO SPECIFIC RAW OPML URLs <---
-# You can add as many OPML files as you want to a single Geo bucket
-OPML_SOURCES = {
-    "IN": [
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/with_category/India.opml",
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/without_category/India.opml"
-    ],
-    "US": [
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/with_category/United%20States.opml",
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/without_category/United%20States.opml",
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/recommended/with_category/Technology.opml"
-    ],
-    "UK": [
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/with_category/United%20Kingdom.opml",
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/without_category/United%20Kingdom.opml"
-    ],
-    "AU": [
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/with_category/Australia.opml",
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/without_category/Australia.opml"
-    ],
-    "World": [
-        # ---> THE FIX: Changed to raw.githubusercontent.com <---
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/recommended/with_category/News.opml",
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/recommended/without_category/News.opml"
-    ]
+# ---> GOOGLE NEWS RSS ENDPOINTS <---
+# These endpoints are highly stable, ultra-fast, and bypass all publisher paywalls/blocks.
+GOOGLE_FEEDS = {
+    "IN": "https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en",
+    "US": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
+    "UK": "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en",
+    "AU": "https://news.google.com/rss?hl=en-AU&gl=AU&ceid=AU:en",
+    "AE": "https://news.google.com/rss?hl=en-AE&gl=AE&ceid=AE:en",
+    "World": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en"
 }
 
-# The files you want to generate
+# The JSON files you want to generate
 GEO_FILES = {
     "IN": "gistfileIN.json",
     "US": "gistfileUS.json",
     "UK": "gistfileUK.json",
     "AU": "gistfileAU.json",
+    "AE": "gistfileAE.json",
     "World": "gistfileWorld.json"
 }
 
-def detect_category(url):
-    if not url: return "general"
-    url_lower = url.lower()
-    
-    if any(kw in url_lower for kw in ["business", "market", "economy", "finance"]): return "business"
-    if any(kw in url_lower for kw in ["tech", "technology", "it"]): return "technology"
-    if any(kw in url_lower for kw in ["sport", "cricket", "football"]): return "sports"
-    if any(kw in url_lower for kw in ["health", "wellness", "covid", "medical"]): return "health"
-    if any(kw in url_lower for kw in ["entertainment", "movies", "film", "tv"]): return "entertainment"
-    if any(kw in url_lower for kw in ["world", "international"]): return "world"
-    
-    return "general"
-
-def validate_feed(feed_url):
-    try:
-        # User-Agent prevents firewalls from blocking the Python script
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        resp = requests.get(feed_url, headers=headers, timeout=8)
-        if resp.status_code == 200:
-            parsed = feedparser.parse(resp.content)
-            # Ensure it is a valid feed with at least one article
-            if parsed.bozo == 0 and len(parsed.entries) > 0:
-                return True
-    except Exception:
-        pass
-    return False
-
-def process_opml_sources():
+def process_google_feeds():
     geo_results = {geo: [] for geo in GEO_FILES.keys()}
     
-    for geo, url_list in OPML_SOURCES.items():
-        print(f"\n🌍 Processing feeds for {geo}...")
+    # Adding a standard User-Agent so we look like a normal web browser
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    
+    for geo, url in GOOGLE_FEEDS.items():
+        print(f"\n🌍 Fetching live news for {geo}...")
         
-        for opml_url in url_list:
-            try:
-                resp = requests.get(opml_url, timeout=15)
+        try:
+            resp = requests.get(url, headers=headers, timeout=15)
+            resp.raise_for_status() 
+            
+            parsed = feedparser.parse(resp.content)
+            
+            # Check if the feed is valid and contains articles
+            if parsed.bozo != 0 and len(parsed.entries) == 0:
+                print(f"  ❌ Failed to parse XML feed for {geo}.")
+                continue
                 
-                # ---> THE FIX: Silently skip 404 errors so it can check the next folder path! <---
-                if resp.status_code == 404:
-                    continue 
-                    
-                resp.raise_for_status() 
-                print(f"  -> Successfully found OPML at: {opml_url}")
+            print(f"  -> Successfully fetched {len(parsed.entries)} articles.")
+            
+            # Limit to top 100 breaking stories per region to keep the JSON lightweight
+            for entry in parsed.entries[:100]:
                 
-                root = ET.fromstring(resp.content)
-                outlines = root.findall(".//outline[@xmlUrl]")
+                # Google News cleanly packages the original publisher's name in the <source> tag
+                source_name = getattr(entry, 'source', {}).get('title', 'Global News')
                 
-                for outline in outlines:
-                    name = outline.get("title") or outline.get("text") or "Unknown Source"
-                    feed_url = outline.get("xmlUrl")
-                    
-                    if not feed_url:
-                        continue
-                        
-                    print(f"     Validating: {name[:30]}...") # Trimmed name for cleaner logs
-                    active = validate_feed(feed_url)
-                    
-                    if active:
-                        entry = {
-                            "id": uuid.uuid4().hex[:8],
-                            "name": name,
-                            "url": feed_url,
-                            "category": detect_category(feed_url),
-                            "region": geo,
-                            "priority": 90,
-                            "active": True
-                        }
-                        geo_results[geo].append(entry)
-                    else:
-                        print(f"     ❌ Feed dead or invalid, skipping.")
-                        
-            except Exception as e:
-                print(f"  ❌ Failed to parse {opml_url}. Error: {e}")
+                article = {
+                    "id": uuid.uuid4().hex[:8],
+                    "sourceName": source_name,
+                    "title": entry.get("title", "Untitled"),
+                    "description": "", # Google's descriptions are mostly HTML, so we leave this blank for a clean UI
+                    "url": entry.get("link", ""),
+                    "category": "general" if geo != "World" else "world",
+                    "region": geo,
+                    "publishedAt": entry.get("published", "")
+                }
+                geo_results[geo].append(article)
+                
+        except Exception as e:
+            print(f"  ❌ Failed to fetch {geo}. Error: {e}")
 
     print("\n--- Summary ---")
     for geo, filename in GEO_FILES.items():
-        feed_count = len(geo_results[geo])
-        if feed_count > 0:
+        article_count = len(geo_results[geo])
+        if article_count > 0:
             with open(filename, "w", encoding="utf-8") as out:
                 json.dump(geo_results[geo], out, indent=2, ensure_ascii=False)
-            print(f"✅ Saved {filename} with {feed_count} active feeds")
+            print(f"✅ Saved {filename} with {article_count} breaking stories.")
         else:
-            print(f"⚪ No active feeds found for {geo}, {filename} was not created.")
+            print(f"⚪ No articles found for {geo}, {filename} was not created.")
 
 if __name__ == "__main__":
-    process_opml_sources()
+    process_google_feeds()
