@@ -5,9 +5,11 @@ import uuid
 import datetime
 
 # Example: global feed list source (replace with actual repo/raw file URL)
-# GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/vandenbroucke/rss-news-list/master/rss_news_list.json"
-# GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/JackyST0/awesome-rsshub-routes/main/routes.json"
 GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/vandenbroucke/rss-news-list/master/rss_news_list.json"
+
+# GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/JackyST0/awesome-rsshub-routes/main/routes.json"
+
+# GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/vandenbroucke/rss-news-list/master/rss_news_list.json"
 
 # Mapping of geographies to output filenames
 GEO_FILES = {
@@ -55,8 +57,20 @@ def validate_feed(feed_url):
 def run_geo_split():
     # Load global feed list
     resp = requests.get(GLOBAL_FEED_LIST, timeout=15)
-    feeds = resp.json()
-
+    # feeds = resp.json()
+    text = resp.text.strip()
+    if text.startswith("["):
+        feeds = json.loads(text)   # proper JSON array
+    else:
+        # assume line-delimited JSON objects
+        feeds = []
+    for line in text.splitlines():
+        line = line.strip()
+        if line:
+            try:
+                feeds.append(json.loads(line))
+            except Exception:
+                print(f"⚠️ Skipping invalid line: {line[:50]}")
     # Prepare per‑geo results
     geo_results = {geo: [] for geo in GEO_FILES.keys()}
 
