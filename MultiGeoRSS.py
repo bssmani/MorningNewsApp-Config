@@ -1,121 +1,122 @@
 import requests
+import xml.etree.ElementTree as ET
 import feedparser
 import json
 import uuid
-import datetime
 
-# Example: global feed list source (replace with actual repo/raw file URL)
-GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/vandenbroucke/rss-news-list/master/rss_news_list.json"
-
-# GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/JackyST0/awesome-rsshub-routes/main/routes.json"
-
-# GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/vandenbroucke/rss-news-list/master/rss_news_list.json"
-
-# Mapping of geographies to output filenames
-GEO_FILES = {
-    "UK": "gistfileUK.json",
-    "US": "gistfileUS.json",
-    "IN": "gistfileIN.json",
-    "AE": "gistfileAE.json",   # Middle East
-    "AU": "gistfileAU.json",
-    "EU": "gistfileEU.json",
-    "JP": "gistfileJP.json"
+# ---> MAP YOUR GEOS TO SPECIFIC RAW OPML URLs <---
+# You can add as many OPML files as you want to a single Geo bucket
+OPML_SOURCES = {
+    "IN": [
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/News/India.opml"
+    ],
+    "US": [
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/News/USA.opml",
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/Technology/Technology.opml" # Mix in global tech for the US feed
+    ],
+    "UK": [
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/News/UK.opml"
+    ],
+    "AU": [
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/News/Australia.opml"
+    ],
+    "World": [
+        "https://github.com/plenaryapp/awesome-rss-feeds/blob/master/recommended/with_category/News.opml"
+    ]
+    # Note: If Plenary lacks UAE (AE), you can find a Middle East OPML online and drop the raw URL right here!
 }
 
-# Category detection based on URL keywords
-def detect_category(url):
-    if not url:
-        return "general"
-    url_lower = url.lower()
-    if "business" in url_lower or "market" in url_lower or "economy" in url_lower or "finance" in url_lower:
-        return "business"
-    elif "tech" in url_lower or "technology" in url_lower or "it" in url_lower:
-        return "technology"
-    elif "sport" in url_lower or "cricket" in url_lower or "football" in url_lower:
-        return "sports"
-    elif "health" in url_lower or "wellness" in url_lower or "covid" in url_lower or "medical" in url_lower:
-        return "health"
-    elif "entertainment" in url_lower or "movies" in url_lower or "film" in url_lower or "tv" in url_lower:
-        return "entertainment"
-    elif "world" in url_lower or "international" in url_lower:
-        return "world"
-    else:
-        return "general"
+# The files you want to generate
+GEO_FILES = {
+    "IN": "gistfileIN.json",
+    "US": "gistfileUS.json",
+    "UK": "gistfileUK.json",
+    "AU": "gistfileAU.json",
+    "World": "gistfileWorld.json"
+}
 
-# Validate feed
+def detect_category(url):
+    if not url: return "general"
+    url_lower = url.lower()
+    
+    if any(kw in url_lower for kw in ["business", "market", "economy", "finance"]): return "business"
+    if any(kw in url_lower for kw in ["tech", "technology", "it"]): return "technology"
+    if any(kw in url_lower for kw in ["sport", "cricket", "football"]): return "sports"
+    if any(kw in url_lower for kw in ["health", "wellness", "covid", "medical"]): return "health"
+    if any(kw in url_lower for kw in ["entertainment", "movies", "film", "tv"]): return "entertainment"
+    if any(kw in url_lower for kw in ["world", "international"]): return "world"
+    
+    return "general"
+
 def validate_feed(feed_url):
     try:
-        resp = requests.get(feed_url, timeout=8)
+        # User-Agent prevents firewalls from blocking the Python script
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        resp = requests.get(feed_url, headers=headers, timeout=8)
         if resp.status_code == 200:
             parsed = feedparser.parse(resp.content)
+            # Ensure it is a valid feed with at least one article
             if parsed.bozo == 0 and len(parsed.entries) > 0:
                 return True
     except Exception:
         pass
     return False
 
-def run_geo_split():
-    # Load global feed list
-    resp = requests.get(GLOBAL_FEED_LIST, timeout=15)
-    # feeds = resp.json()
-    text = resp.text.strip()
-    if text.startswith("["):
-        feeds = json.loads(text)   # proper JSON array
-    else:
-        # assume line-delimited JSON objects
-        feeds = []
-    for line in text.splitlines():
-        line = line.strip()
-        if line:
-            try:
-                feeds.append(json.loads(line))
-            except Exception:
-                print(f"⚠️ Skipping invalid line: {line[:50]}")
-    # Prepare per‑geo results
+def process_opml_sources():
     geo_results = {geo: [] for geo in GEO_FILES.keys()}
-
-    for feed in feeds:
-        url = feed.get("URL")
-        name = feed.get("name") or feed.get("src_name_long")
-        country = feed.get("src_country", "").upper()
-
-        # Map country to geo bucket
-        if country in ["GBR", "UK"]:
-            geo = "UK"
-        elif country in ["USA", "US"]:
-            geo = "US"
-        elif country in ["IND", "IN"]:
-            geo = "IN"
-        elif country in ["ARE", "AE", "SAU", "QAT", "OMN"]:  # Middle East
-            geo = "AE"
-        elif country in ["AUS", "AU"]:
-            geo = "AU"
-        elif country in ["EU", "DEU", "FRA", "ITA", "ESP"]:  # Europe
-            geo = "EU"
-        elif country in ["JPN", "JP"]:
-            geo = "JP"
-        else:
-            continue  # skip if not mapped
-
-        active = validate_feed(url)
-        category = detect_category(url)
-
-        entry = {
-            "id": uuid.uuid4().hex[:8],
-            "name": name,
-            "url": url,
-            "category": category,
-            "region": geo,
-            "priority": 90,
-            "active": active
-        }
-        geo_results[geo].append(entry)
+    
+    for geo, url_list in OPML_SOURCES.items():
+        print(f"\n🌍 Processing feeds for {geo}...")
+        
+        for opml_url in url_list:
+            print(f"  -> Fetching OPML: {opml_url}")
+            try:
+                resp = requests.get(opml_url, timeout=15)
+                resp.raise_for_status() # Throw error if download fails
+                
+                # Parse the XML string
+                root = ET.fromstring(resp.content)
+                
+                # Find every <outline> tag that contains an 'xmlUrl' (this indicates it's an RSS feed)
+                outlines = root.findall(".//outline[@xmlUrl]")
+                
+                for outline in outlines:
+                    name = outline.get("title") or outline.get("text") or "Unknown Source"
+                    feed_url = outline.get("xmlUrl")
+                    
+                    if not feed_url:
+                        continue
+                        
+                    print(f"     Validating: {name}...")
+                    active = validate_feed(feed_url)
+                    
+                    if active:
+                        entry = {
+                            "id": uuid.uuid4().hex[:8],
+                            "name": name,
+                            "url": feed_url,
+                            "category": detect_category(feed_url),
+                            "region": geo,
+                            "priority": 90,
+                            "active": True
+                        }
+                        geo_results[geo].append(entry)
+                    else:
+                        print(f"     ❌ Feed dead or invalid, skipping.")
+                        
+            except Exception as e:
+                print(f"  ❌ Failed to process {opml_url}. Error: {e}")
 
     # Write separate JSON files
+    print("\n--- Summary ---")
     for geo, filename in GEO_FILES.items():
-        with open(filename, "w", encoding="utf-8") as out:
-            json.dump(geo_results[geo], out, indent=2, ensure_ascii=False)
-        print(f"✅ Saved {filename} with {len(geo_results[geo])} feeds")
+        feed_count = len(geo_results[geo])
+        if feed_count > 0:
+            with open(filename, "w", encoding="utf-8") as out:
+                json.dump(geo_results[geo], out, indent=2, ensure_ascii=False)
+            print(f"✅ Saved {filename} with {feed_count} active feeds")
+        else:
+            print(f"⚪ No active feeds found for {geo}, {filename} was not created.")
 
 if __name__ == "__main__":
-    run_geo_split()
+    process_opml_sources()
