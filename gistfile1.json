@@ -1,6 +1,6 @@
 [
   {
-    "id": "6d0f243f",
+    "id": "ace6922f",
     "name": "NDTV India",
     "url": "https://feeds.feedburner.com/ndtvnews-india-news",
     "category": "general",
@@ -9,7 +9,7 @@
     "active": true
   },
   {
-    "id": "4ed4351c",
+    "id": "aed66723",
     "name": "NYT World",
     "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
     "category": "world",
@@ -18,7 +18,7 @@
     "active": true
   },
   {
-    "id": "9e6cc67a",
+    "id": "bc0f1211",
     "name": "BBC News",
     "url": "http://feeds.bbci.co.uk/news/uk/rss.xml",
     "category": "world",
@@ -27,7 +27,7 @@
     "active": true
   },
   {
-    "id": "c6250dea",
+    "id": "f35c04e9",
     "name": "Economic Times",
     "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms",
     "category": "business",
@@ -36,7 +36,7 @@
     "active": true
   },
   {
-    "id": "680c2fb0",
+    "id": "bddc0b69",
     "name": "Financial Times",
     "url": "https://www.ft.com/?format=rss",
     "category": "business",
@@ -45,7 +45,7 @@
     "active": true
   },
   {
-    "id": "e7138924",
+    "id": "a1990a06",
     "name": "WSJ Business",
     "url": "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml",
     "category": "business",
@@ -54,7 +54,7 @@
     "active": true
   },
   {
-    "id": "459d6634",
+    "id": "0adea2c3",
     "name": "Gadgets 360",
     "url": "https://feeds.feedburner.com/gadgets360-latest",
     "category": "technology",
@@ -63,7 +63,7 @@
     "active": true
   },
   {
-    "id": "a83f2f27",
+    "id": "e535b41b",
     "name": "TechCrunch",
     "url": "https://techcrunch.com/feed/",
     "category": "technology",
@@ -72,7 +72,7 @@
     "active": true
   },
   {
-    "id": "6231555f",
+    "id": "88b1c0db",
     "name": "BBC Sport",
     "url": "http://feeds.bbci.co.uk/sport/rss.xml",
     "category": "sports",
@@ -81,7 +81,7 @@
     "active": true
   },
   {
-    "id": "7534fd30",
+    "id": "50da438a",
     "name": "TOI Entertainment",
     "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
     "category": "entertainment",
@@ -90,7 +90,7 @@
     "active": true
   },
   {
-    "id": "a479cf1c",
+    "id": "c35b8267",
     "name": "BBC Entertainment",
     "url": "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
     "category": "entertainment",
@@ -99,7 +99,7 @@
     "active": true
   },
   {
-    "id": "50ef4587",
+    "id": "4fc3d8e0",
     "name": "NYT Health",
     "url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
     "category": "health",
@@ -108,16 +108,7 @@
     "active": true
   },
   {
-    "id": "6c3f149d",
-    "name": "NASA Science",
-    "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-    "category": "science",
-    "region": "US",
-    "priority": 90,
-    "active": true
-  },
-  {
-    "id": "5db6e037",
+    "id": "1d637e99",
     "name": "New Scientist",
     "url": "https://www.newscientist.com/feed/home/",
     "category": "science",
@@ -126,7 +117,7 @@
     "active": true
   },
   {
-    "id": "6eca40cf",
+    "id": "c0f6fb87",
     "name": "Indian Express",
     "url": "https://indianexpress.com/section/lifestyle/feed/",
     "category": "lifestyle",
@@ -135,7 +126,7 @@
     "active": true
   },
   {
-    "id": "f74a0fa6",
+    "id": "82a80727",
     "name": "Autocar",
     "url": "https://www.autocar.co.uk/rss/news",
     "category": "auto",
@@ -144,7 +135,7 @@
     "active": true
   },
   {
-    "id": "7c81d6cd",
+    "id": "c02a8fef",
     "name": "NPR World",
     "url": "https://feeds.npr.org/1004/rss.xml",
     "category": "world",
@@ -153,7 +144,7 @@
     "active": true
   },
   {
-    "id": "c1fff969",
+    "id": "38fae537",
     "name": "VOA World",
     "url": "https://www.voanews.com/api/zmgqem$rqo",
     "category": "world",
@@ -162,7 +153,7 @@
     "active": true
   },
   {
-    "id": "06713f23",
+    "id": "80763a98",
     "name": "Sky News World",
     "url": "https://feeds.skynews.com/feeds/rss/world.xml",
     "category": "world",
@@ -171,7 +162,7 @@
     "active": true
   },
   {
-    "id": "5ae0a3b3",
+    "id": "c87e1f5f",
     "name": "Guardian World",
     "url": "https://www.theguardian.com/world/rss",
     "category": "world",
@@ -180,7 +171,7 @@
     "active": true
   },
   {
-    "id": "56a534c7",
+    "id": "d21aa160",
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/xml/rss/all.xml",
     "category": "world",
@@ -189,7 +180,7 @@
     "active": true
   },
   {
-    "id": "8120647d",
+    "id": "93574b4c",
     "name": "Arab News",
     "url": "https://www.arabnews.com/rss.xml",
     "category": "world",
@@ -198,7 +189,7 @@
     "active": true
   },
   {
-    "id": "0d607c1b",
+    "id": "8c0c3d41",
     "name": "Jerusalem Post",
     "url": "https://www.jpost.com/Rss/RssFeedsHeadlines.aspx",
     "category": "world",
@@ -207,7 +198,7 @@
     "active": true
   },
   {
-    "id": "2486f628",
+    "id": "cbccecad",
     "name": "Bloomberg Markets",
     "url": "https://feeds.bloomberg.com/markets/news.rss",
     "category": "business",
@@ -216,7 +207,7 @@
     "active": true
   },
   {
-    "id": "7530bdd4",
+    "id": "6ac92ec7",
     "name": "Fortune",
     "url": "https://fortune.com/feed/",
     "category": "business",
@@ -225,7 +216,7 @@
     "active": true
   },
   {
-    "id": "e51ae044",
+    "id": "07853ca5",
     "name": "Forbes Business",
     "url": "https://www.forbes.com/business/feed/",
     "category": "business",
@@ -234,7 +225,7 @@
     "active": true
   },
   {
-    "id": "7fe5159a",
+    "id": "8602f5a7",
     "name": "Khaleej Times Business",
     "url": "https://www.khaleejtimes.com/rss/business",
     "category": "business",
@@ -243,7 +234,7 @@
     "active": true
   },
   {
-    "id": "6a200b75",
+    "id": "0fac4961",
     "name": "Wired",
     "url": "https://www.wired.com/feed/rss",
     "category": "technology",
@@ -252,7 +243,7 @@
     "active": true
   },
   {
-    "id": "7c282fd6",
+    "id": "c51d7edb",
     "name": "Ars Technica",
     "url": "https://arstechnica.com/feed/",
     "category": "technology",
@@ -261,7 +252,7 @@
     "active": true
   },
   {
-    "id": "4e4c01e9",
+    "id": "dba33b70",
     "name": "ZDNet",
     "url": "https://www.zdnet.com/news/rss.xml",
     "category": "technology",
@@ -270,7 +261,7 @@
     "active": true
   },
   {
-    "id": "13643d3d",
+    "id": "a589da48",
     "name": "Engadget",
     "url": "https://www.engadget.com/rss.xml",
     "category": "technology",
@@ -279,7 +270,7 @@
     "active": true
   },
   {
-    "id": "5c85d8de",
+    "id": "502affae",
     "name": "Sky Sports",
     "url": "https://www.skysports.com/rss/12040",
     "category": "sports",
@@ -288,7 +279,7 @@
     "active": true
   },
   {
-    "id": "d880be11",
+    "id": "9a1797cd",
     "name": "BBC Football",
     "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
     "category": "sports",
@@ -297,7 +288,7 @@
     "active": true
   },
   {
-    "id": "22a16838",
+    "id": "f6168ade",
     "name": "CBS Sports",
     "url": "https://www.cbssports.com/rss/headlines/",
     "category": "sports",
@@ -306,7 +297,7 @@
     "active": true
   },
   {
-    "id": "507aabd0",
+    "id": "6881585f",
     "name": "Yahoo Sports",
     "url": "https://sports.yahoo.com/rss/",
     "category": "sports",
@@ -315,7 +306,7 @@
     "active": true
   },
   {
-    "id": "02042a4b",
+    "id": "44831d33",
     "name": "Variety",
     "url": "https://variety.com/feed/",
     "category": "entertainment",
@@ -324,7 +315,7 @@
     "active": true
   },
   {
-    "id": "d8f61c33",
+    "id": "66a4046f",
     "name": "Hollywood Reporter",
     "url": "https://www.hollywoodreporter.com/feed/",
     "category": "entertainment",
@@ -333,7 +324,7 @@
     "active": true
   },
   {
-    "id": "8c7ff746",
+    "id": "b8b92d7d",
     "name": "Deadline",
     "url": "https://deadline.com/feed/",
     "category": "entertainment",
@@ -342,7 +333,7 @@
     "active": true
   },
   {
-    "id": "df0aa699",
+    "id": "cfd6d56e",
     "name": "NME",
     "url": "https://www.nme.com/feed",
     "category": "entertainment",
@@ -351,7 +342,7 @@
     "active": true
   },
   {
-    "id": "f5867af6",
+    "id": "27c99158",
     "name": "ScienceDaily",
     "url": "https://www.sciencedaily.com/rss/all.xml",
     "category": "science",
@@ -360,7 +351,7 @@
     "active": true
   },
   {
-    "id": "1d5e5c51",
+    "id": "f271e160",
     "name": "Nature",
     "url": "https://www.nature.com/nature.rss",
     "category": "science",
@@ -369,7 +360,7 @@
     "active": true
   },
   {
-    "id": "19810d40",
+    "id": "d6f9bba9",
     "name": "Country Living UK",
     "url": "https://www.countryliving.com/uk/rss/all.xml",
     "category": "lifestyle",
@@ -378,7 +369,7 @@
     "active": true
   },
   {
-    "id": "2be7c72d",
+    "id": "efb69d16",
     "name": "Car and Driver",
     "url": "https://www.caranddriver.com/rss/all.xml",
     "category": "auto",
@@ -387,7 +378,7 @@
     "active": true
   },
   {
-    "id": "abb952f7",
+    "id": "92dede1e",
     "name": "Motor1",
     "url": "https://www.motor1.com/rss/news/all/",
     "category": "auto",
