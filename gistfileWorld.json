@@ -1,0 +1,146 @@
+[
+  {
+    "id": "f088a042",
+    "name": "BBC News",
+    "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "category": "world",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "6076ff92",
+    "name": "CNN.com - RSS Channel - World",
+    "url": "http://rss.cnn.com/rss/edition_world.rss",
+    "category": "technology",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "1b7237f7",
+    "name": "International: Top News And Analysis",
+    "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+    "category": "general",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "f8874c82",
+    "name": "NDTV News Search Records Found 1000",
+    "url": "http://feeds.feedburner.com/ndtvnews-world-news",
+    "category": "entertainment",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "e4fb18a1",
+    "name": "NYT > World News",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "category": "world",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "dc920d94",
+    "name": "Top stories - Google News",
+    "url": "https://news.google.com/rss",
+    "category": "general",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "e5d29121",
+    "name": "World News, Today World News, Latest International News, World Breaking News, Trending News of World - Times of India",
+    "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+    "category": "general",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "5c65a82a",
+    "name": "World news | The Guardian",
+    "url": "https://www.theguardian.com/world/rss",
+    "category": "world",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "a01abebc",
+    "name": "BBC News",
+    "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "category": "world",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "a8707254",
+    "name": "CNN.com - RSS Channel - World",
+    "url": "http://rss.cnn.com/rss/edition_world.rss",
+    "category": "technology",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "88ec6772",
+    "name": "International: Top News And Analysis",
+    "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+    "category": "general",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "88772db4",
+    "name": "NDTV News Search Records Found 1000",
+    "url": "http://feeds.feedburner.com/ndtvnews-world-news",
+    "category": "entertainment",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "ae558304",
+    "name": "NYT > World News",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "category": "world",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "277d72c8",
+    "name": "Top stories - Google News",
+    "url": "https://news.google.com/rss",
+    "category": "general",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "15234e29",
+    "name": "World News, Today World News, Latest International News, World Breaking News, Trending News of World - Times of India",
+    "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+    "category": "general",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  },
+  {
+    "id": "a945348d",
+    "name": "World news | The Guardian",
+    "url": "https://www.theguardian.com/world/rss",
+    "category": "world",
+    "region": "World",
+    "priority": 90,
+    "active": true
+  }
+]
