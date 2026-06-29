@@ -8,22 +8,27 @@ import uuid
 # You can add as many OPML files as you want to a single Geo bucket
 OPML_SOURCES = {
     "IN": [
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/News/India.opml"
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/with_category/India.opml",
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/without_category/India.opml"
     ],
     "US": [
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/News/USA.opml",
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/Technology/Technology.opml" # Mix in global tech for the US feed
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/with_category/United%20States.opml",
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/without_category/United%20States.opml",
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/recommended/with_category/Technology.opml"
     ],
     "UK": [
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/News/UK.opml"
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/with_category/United%20Kingdom.opml",
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/without_category/United%20Kingdom.opml"
     ],
     "AU": [
-        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/News/Australia.opml"
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/with_category/Australia.opml",
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/countries/without_category/Australia.opml"
     ],
     "World": [
-        "https://github.com/plenaryapp/awesome-rss-feeds/blob/master/recommended/with_category/News.opml"
+        # ---> THE FIX: Changed to raw.githubusercontent.com <---
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/recommended/with_category/News.opml",
+        "https://raw.githubusercontent.com/plenaryapp/awesome-rss-feeds/master/recommended/without_category/News.opml"
     ]
-    # Note: If Plenary lacks UAE (AE), you can find a Middle East OPML online and drop the raw URL right here!
 }
 
 # The files you want to generate
@@ -69,15 +74,17 @@ def process_opml_sources():
         print(f"\n🌍 Processing feeds for {geo}...")
         
         for opml_url in url_list:
-            print(f"  -> Fetching OPML: {opml_url}")
             try:
                 resp = requests.get(opml_url, timeout=15)
-                resp.raise_for_status() # Throw error if download fails
                 
-                # Parse the XML string
+                # ---> THE FIX: Silently skip 404 errors so it can check the next folder path! <---
+                if resp.status_code == 404:
+                    continue 
+                    
+                resp.raise_for_status() 
+                print(f"  -> Successfully found OPML at: {opml_url}")
+                
                 root = ET.fromstring(resp.content)
-                
-                # Find every <outline> tag that contains an 'xmlUrl' (this indicates it's an RSS feed)
                 outlines = root.findall(".//outline[@xmlUrl]")
                 
                 for outline in outlines:
@@ -87,7 +94,7 @@ def process_opml_sources():
                     if not feed_url:
                         continue
                         
-                    print(f"     Validating: {name}...")
+                    print(f"     Validating: {name[:30]}...") # Trimmed name for cleaner logs
                     active = validate_feed(feed_url)
                     
                     if active:
@@ -105,9 +112,8 @@ def process_opml_sources():
                         print(f"     ❌ Feed dead or invalid, skipping.")
                         
             except Exception as e:
-                print(f"  ❌ Failed to process {opml_url}. Error: {e}")
+                print(f"  ❌ Failed to parse {opml_url}. Error: {e}")
 
-    # Write separate JSON files
     print("\n--- Summary ---")
     for geo, filename in GEO_FILES.items():
         feed_count = len(geo_results[geo])
