@@ -7,7 +7,7 @@ import datetime
 # Example: global feed list source (replace with actual repo/raw file URL)
 # GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/vandenbroucke/rss-news-list/master/rss_news_list.json"
 # GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/JackyST0/awesome-rsshub-routes/main/routes.json"
-GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/vandenbroucke/rss-news-list/master/rss_news_list.json
+GLOBAL_FEED_LIST = "https://raw.githubusercontent.com/vandenbroucke/rss-news-list/master/rss_news_list.json"
 
 # Mapping of geographies to output filenames
 GEO_FILES = {
